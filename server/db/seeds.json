@@ -1,271 +1,2138 @@
 {
   "medications": [
-    { "name": "Amoxicillin", "genericName": "amoxicillin", "category": "Antibiotic", "description": "Beta-lactam antibiotic effective against bacterial infections" },
-    { "name": "Azithromycin", "genericName": "azithromycin", "category": "Antibiotic", "description": "Macrolide antibiotic with broad-spectrum activity" },
-    { "name": "Ciprofloxacin", "genericName": "ciprofloxacin", "category": "Antibiotic", "description": "Fluoroquinolone antibiotic for serious infections" },
-    { "name": "Doxycycline", "genericName": "doxycycline", "category": "Antibiotic", "description": "Tetracycline antibiotic with anti-inflammatory properties" },
-    { "name": "Cefalexin", "genericName": "cefalexin", "category": "Antibiotic", "description": "First-generation cephalosporin for bacterial infections" },
-    { "name": "Omeprazole", "genericName": "omeprazole", "category": "Gastrointestinal", "description": "Proton pump inhibitor for acid reflux and GERD" },
-    { "name": "Ranitidine", "genericName": "ranitidine", "category": "Gastrointestinal", "description": "H2 receptor antagonist for heartburn relief" },
-    { "name": "Metformin", "genericName": "metformin", "category": "Endocrine", "description": "First-line treatment for type 2 diabetes mellitus" },
-    { "name": "Insulin Glargine", "genericName": "insulin glargine", "category": "Endocrine", "description": "Long-acting insulin for diabetes management" },
-    { "name": "Lisinopril", "genericName": "lisinopril", "category": "Cardiovascular", "description": "ACE inhibitor for hypertension and heart failure" },
-    { "name": "Metoprolol", "genericName": "metoprolol", "category": "Cardiovascular", "description": "Beta-blocker for hypertension and arrhythmias" },
-    { "name": "Atorvastatin", "genericName": "atorvastatin", "category": "Cardiovascular", "description": "Statin for cholesterol management" },
-    { "name": "Sertraline", "genericName": "sertraline", "category": "Psychiatric", "description": "SSRI antidepressant for depression and anxiety" },
-    { "name": "Escitalopram", "genericName": "escitalopram", "category": "Psychiatric", "description": "SSRI with selective serotonin reuptake inhibition" },
-    { "name": "Lorazepam", "genericName": "lorazepam", "category": "Psychiatric", "description": "Benzodiazepine for anxiety and insomnia" },
-    { "name": "Ibuprofen", "genericName": "ibuprofen", "category": "Pain Relief", "description": "NSAID for pain and inflammation relief" },
-    { "name": "Acetaminophen", "genericName": "acetaminophen", "category": "Pain Relief", "description": "Analgesic and antipyretic for pain and fever" },
-    { "name": "Naproxen", "genericName": "naproxen", "category": "Pain Relief", "description": "Long-acting NSAID for chronic pain management" },
-    { "name": "Hydrocodone", "genericName": "hydrocodone", "category": "Pain Relief", "description": "Opioid for moderate to severe pain" },
-    { "name": "Cetirizine", "genericName": "cetirizine", "category": "Allergy", "description": "Selective H1 receptor antagonist for allergies" },
-    { "name": "Loratadine", "genericName": "loratadine", "category": "Allergy", "description": "Non-sedating antihistamine for allergic reactions" },
-    { "name": "Fexofenadine", "genericName": "fexofenadine", "category": "Allergy", "description": "Long-acting antihistamine for urticaria and allergies" },
-    { "name": "Fluticasone", "genericName": "fluticasone", "category": "Respiratory", "description": "Inhaled corticosteroid for asthma control" },
-    { "name": "Albuterol", "genericName": "albuterol", "category": "Respiratory", "description": "Beta-2 agonist for acute asthma symptoms" },
-    { "name": "Montelukast", "genericName": "montelukast", "category": "Respiratory", "description": "Leukotriene inhibitor for asthma and allergies" },
-    { "name": "Methylprednisolone", "genericName": "methylprednisolone", "category": "Immunosuppressant", "description": "Corticosteroid for inflammation and immune response" },
-    { "name": "Prednisone", "genericName": "prednisone", "category": "Immunosuppressant", "description": "Systemic corticosteroid for various inflammatory conditions" },
-    { "name": "Levothyroxine", "genericName": "levothyroxine", "category": "Endocrine", "description": "Thyroid hormone replacement for hypothyroidism" },
-    { "name": "Sildenafil", "genericName": "sildenafil", "category": "Genitourinary", "description": "Phosphodiesterase inhibitor for erectile dysfunction" },
-    { "name": "Finasteride", "genericName": "finasteride", "category": "Genitourinary", "description": "5-alpha reductase inhibitor for BPH" },
-    { "name": "Methotrexate", "genericName": "methotrexate", "category": "Rheumatologic", "description": "DMARD for rheumatoid arthritis and autoimmune diseases" },
-    { "name": "Etanercept", "genericName": "etanercept", "category": "Rheumatologic", "description": "TNF-alpha inhibitor for rheumatoid arthritis" },
-    { "name": "Allopurinol", "genericName": "allopurinol", "category": "Rheumatologic", "description": "Xanthine oxidase inhibitor for gout prevention" },
-    { "name": "Phenytoin", "genericName": "phenytoin", "category": "Neurologic", "description": "Anticonvulsant for seizure control" },
-    { "name": "Levetiracetam", "genericName": "levetiracetam", "category": "Neurologic", "description": "Anticonvulsant with novel mechanism" },
-    { "name": "Gabapentin", "genericName": "gabapentin", "category": "Neurologic", "description": "Anticonvulsant for neuropathic pain" },
-    { "name": "Sumatriptan", "genericName": "sumatriptan", "category": "Neurologic", "description": "Triptan for acute migraine treatment" },
-    { "name": "Propranolol", "genericName": "propranolol", "category": "Neurologic", "description": "Beta-blocker for migraine prophylaxis" },
-    { "name": "Fluconazole", "genericName": "fluconazole", "category": "Antifungal", "description": "Triazole antifungal for candida infections" },
-    { "name": "Ketoconazole", "genericName": "ketoconazole", "category": "Antifungal", "description": "Broad-spectrum imidazole antifungal" },
-    { "name": "Acyclovir", "genericName": "acyclovir", "category": "Antiviral", "description": "Nucleoside analog for herpes simplex virus" },
-    { "name": "Oseltamivir", "genericName": "oseltamivir", "category": "Antiviral", "description": "Neuraminidase inhibitor for influenza" },
-    { "name": "Ribavirin", "genericName": "ribavirin", "category": "Antiviral", "description": "Nucleoside analog for viral infections" },
-    { "name": "Tetanus Toxoid", "genericName": "tetanus toxoid", "category": "Vaccine", "description": "Immunization against tetanus" },
-    { "name": "Influenza Vaccine", "genericName": "influenza vaccine", "category": "Vaccine", "description": "Annual vaccination against influenza" },
-    { "name": "COVID-19 Vaccine", "genericName": "covid-19 vaccine", "category": "Vaccine", "description": "Immunization against SARS-CoV-2" },
-    { "name": "Diazepam", "genericName": "diazepam", "category": "Psychiatric", "description": "Benzodiazepine for anxiety and muscle relaxation" },
-    { "name": "Clopidogrel", "genericName": "clopidogrel", "category": "Cardiovascular", "description": "Antiplatelet agent for cardiovascular events" },
-    { "name": "Ezetimibe", "genericName": "ezetimibe", "category": "Cardiovascular", "description": "Cholesterol absorption inhibitor" },
-    { "name": "Warfarin", "genericName": "warfarin sodium", "category": "Anticoagulant", "description": "Vitamin K antagonist for prevention and treatment of thromboembolic disorders; requires INR monitoring" },
-    { "name": "Apixaban", "genericName": "apixaban", "category": "Anticoagulant", "description": "Direct factor Xa inhibitor for stroke prevention in atrial fibrillation and DVT treatment; no INR monitoring required" },
-    { "name": "Amlodipine", "genericName": "amlodipine besylate", "category": "Cardiovascular", "description": "Long-acting dihydropyridine calcium channel blocker for hypertension and stable angina" },
-    { "name": "Pantoprazole", "genericName": "pantoprazole sodium", "category": "Gastrointestinal", "description": "Proton pump inhibitor available in oral and IV forms for GERD, erosive esophagitis, and peptic ulcer disease" },
-    { "name": "Ondansetron", "genericName": "ondansetron hydrochloride", "category": "Gastrointestinal", "description": "Selective 5-HT3 receptor antagonist for nausea and vomiting in chemotherapy, radiation, and postoperative settings" },
-    { "name": "Empagliflozin", "genericName": "empagliflozin", "category": "Endocrine", "description": "SGLT2 inhibitor that reduces blood glucose via glucosuria; demonstrated cardiovascular and renal protective benefits in type 2 diabetes" },
-    { "name": "Venlafaxine", "genericName": "venlafaxine hydrochloride", "category": "Psychiatric", "description": "Serotonin-norepinephrine reuptake inhibitor for major depressive disorder, GAD, social anxiety, and panic disorder" },
-    { "name": "Bupropion", "genericName": "bupropion hydrochloride", "category": "Psychiatric", "description": "Norepinephrine-dopamine reuptake inhibitor antidepressant without sexual side effects; also approved for smoking cessation" },
-    { "name": "Quetiapine", "genericName": "quetiapine fumarate", "category": "Psychiatric", "description": "Atypical antipsychotic with activity at dopamine, serotonin, histamine, and adrenergic receptors for schizophrenia and bipolar disorder" },
-    { "name": "Tramadol", "genericName": "tramadol hydrochloride", "category": "Pain Relief", "description": "Centrally acting analgesic with weak mu-opioid agonism and norepinephrine/serotonin reuptake inhibition for moderate to severe pain" },
-    { "name": "Celecoxib", "genericName": "celecoxib", "category": "Pain Relief", "description": "Selective COX-2 inhibitor NSAID with reduced GI ulceration risk compared to non-selective NSAIDs" },
-    { "name": "Tiotropium", "genericName": "tiotropium bromide", "category": "Respiratory", "description": "Once-daily long-acting anticholinergic bronchodilator for COPD maintenance; blocks M3 muscarinic receptors" },
-    { "name": "Salmeterol", "genericName": "salmeterol xinafoate", "category": "Respiratory", "description": "Long-acting beta2-adrenergic agonist providing 12-hour bronchodilation; used with inhaled corticosteroids for asthma maintenance" },
-    { "name": "Hydroxychloroquine", "genericName": "hydroxychloroquine sulfate", "category": "Rheumatologic", "description": "DMARD derived from chloroquine used for rheumatoid arthritis and systemic lupus erythematosus; requires retinal monitoring" },
-    { "name": "Adalimumab", "genericName": "adalimumab", "category": "Immunosuppressant", "description": "Fully human anti-TNF-alpha monoclonal antibody for rheumatoid arthritis, psoriasis, psoriatic arthritis, and Crohn's disease" },
-    { "name": "Colchicine", "genericName": "colchicine", "category": "Rheumatologic", "description": "Anti-inflammatory agent that inhibits tubulin polymerization and neutrophil migration; used for acute gout flares and prophylaxis" },
-    { "name": "Valproate", "genericName": "valproic acid / divalproex sodium", "category": "Neurologic", "description": "Broad-spectrum anticonvulsant and mood stabilizer that increases GABA and modulates sodium channels; requires liver function monitoring" },
-    { "name": "Topiramate", "genericName": "topiramate", "category": "Neurologic", "description": "Anticonvulsant blocking sodium channels and potentiating GABA; used for seizures and migraine prophylaxis; associated with cognitive side effects" },
-    { "name": "Donepezil", "genericName": "donepezil hydrochloride", "category": "Neurologic", "description": "Selective reversible acetylcholinesterase inhibitor for symptomatic treatment of mild to severe Alzheimer's disease" },
-    { "name": "Valacyclovir", "genericName": "valacyclovir hydrochloride", "category": "Antiviral", "description": "Prodrug of acyclovir with improved oral bioavailability; used for herpes zoster, genital herpes, and herpes labialis" },
-    { "name": "Ceftriaxone", "genericName": "ceftriaxone sodium", "category": "Antibiotic", "description": "Third-generation cephalosporin with parenteral administration and excellent CNS penetration; used for pneumonia, meningitis, and sepsis" },
-    { "name": "Trimethoprim-Sulfamethoxazole", "genericName": "trimethoprim / sulfamethoxazole", "category": "Antibiotic", "description": "Fixed-ratio combination that sequentially blocks bacterial folate synthesis; used for UTIs, PCP prophylaxis, and MRSA skin infections" }
+    {
+      "name": "Amoxicillin",
+      "genericName": "amoxicillin",
+      "category": "Antibiotic",
+      "description": "Beta-lactam antibiotic effective against bacterial infections"
+    },
+    {
+      "name": "Azithromycin",
+      "genericName": "azithromycin",
+      "category": "Antibiotic",
+      "description": "Macrolide antibiotic with broad-spectrum activity"
+    },
+    {
+      "name": "Ciprofloxacin",
+      "genericName": "ciprofloxacin",
+      "category": "Antibiotic",
+      "description": "Fluoroquinolone antibiotic for serious infections"
+    },
+    {
+      "name": "Doxycycline",
+      "genericName": "doxycycline",
+      "category": "Antibiotic",
+      "description": "Tetracycline antibiotic with anti-inflammatory properties"
+    },
+    {
+      "name": "Cefalexin",
+      "genericName": "cefalexin",
+      "category": "Antibiotic",
+      "description": "First-generation cephalosporin for bacterial infections"
+    },
+    {
+      "name": "Omeprazole",
+      "genericName": "omeprazole",
+      "category": "Gastrointestinal",
+      "description": "Proton pump inhibitor for acid reflux and GERD"
+    },
+    {
+      "name": "Ranitidine",
+      "genericName": "ranitidine",
+      "category": "Gastrointestinal",
+      "description": "H2 receptor antagonist for heartburn relief"
+    },
+    {
+      "name": "Metformin",
+      "genericName": "metformin",
+      "category": "Endocrine",
+      "description": "First-line treatment for type 2 diabetes mellitus"
+    },
+    {
+      "name": "Insulin Glargine",
+      "genericName": "insulin glargine",
+      "category": "Endocrine",
+      "description": "Long-acting insulin for diabetes management"
+    },
+    {
+      "name": "Lisinopril",
+      "genericName": "lisinopril",
+      "category": "Cardiovascular",
+      "description": "ACE inhibitor for hypertension and heart failure"
+    },
+    {
+      "name": "Metoprolol",
+      "genericName": "metoprolol",
+      "category": "Cardiovascular",
+      "description": "Beta-blocker for hypertension and arrhythmias"
+    },
+    {
+      "name": "Atorvastatin",
+      "genericName": "atorvastatin",
+      "category": "Cardiovascular",
+      "description": "Statin for cholesterol management"
+    },
+    {
+      "name": "Sertraline",
+      "genericName": "sertraline",
+      "category": "Psychiatric",
+      "description": "SSRI antidepressant for depression and anxiety"
+    },
+    {
+      "name": "Escitalopram",
+      "genericName": "escitalopram",
+      "category": "Psychiatric",
+      "description": "SSRI with selective serotonin reuptake inhibition"
+    },
+    {
+      "name": "Lorazepam",
+      "genericName": "lorazepam",
+      "category": "Psychiatric",
+      "description": "Benzodiazepine for anxiety and insomnia"
+    },
+    {
+      "name": "Ibuprofen",
+      "genericName": "ibuprofen",
+      "category": "Pain Relief",
+      "description": "NSAID for pain and inflammation relief"
+    },
+    {
+      "name": "Acetaminophen",
+      "genericName": "acetaminophen",
+      "category": "Pain Relief",
+      "description": "Analgesic and antipyretic for pain and fever"
+    },
+    {
+      "name": "Naproxen",
+      "genericName": "naproxen",
+      "category": "Pain Relief",
+      "description": "Long-acting NSAID for chronic pain management"
+    },
+    {
+      "name": "Hydrocodone",
+      "genericName": "hydrocodone",
+      "category": "Pain Relief",
+      "description": "Opioid for moderate to severe pain"
+    },
+    {
+      "name": "Cetirizine",
+      "genericName": "cetirizine",
+      "category": "Allergy",
+      "description": "Selective H1 receptor antagonist for allergies"
+    },
+    {
+      "name": "Loratadine",
+      "genericName": "loratadine",
+      "category": "Allergy",
+      "description": "Non-sedating antihistamine for allergic reactions"
+    },
+    {
+      "name": "Fexofenadine",
+      "genericName": "fexofenadine",
+      "category": "Allergy",
+      "description": "Long-acting antihistamine for urticaria and allergies"
+    },
+    {
+      "name": "Fluticasone",
+      "genericName": "fluticasone",
+      "category": "Respiratory",
+      "description": "Inhaled corticosteroid for asthma control"
+    },
+    {
+      "name": "Albuterol",
+      "genericName": "albuterol",
+      "category": "Respiratory",
+      "description": "Beta-2 agonist for acute asthma symptoms"
+    },
+    {
+      "name": "Montelukast",
+      "genericName": "montelukast",
+      "category": "Respiratory",
+      "description": "Leukotriene inhibitor for asthma and allergies"
+    },
+    {
+      "name": "Methylprednisolone",
+      "genericName": "methylprednisolone",
+      "category": "Immunosuppressant",
+      "description": "Corticosteroid for inflammation and immune response"
+    },
+    {
+      "name": "Prednisone",
+      "genericName": "prednisone",
+      "category": "Immunosuppressant",
+      "description": "Systemic corticosteroid for various inflammatory conditions"
+    },
+    {
+      "name": "Levothyroxine",
+      "genericName": "levothyroxine",
+      "category": "Endocrine",
+      "description": "Thyroid hormone replacement for hypothyroidism"
+    },
+    {
+      "name": "Sildenafil",
+      "genericName": "sildenafil",
+      "category": "Genitourinary",
+      "description": "Phosphodiesterase inhibitor for erectile dysfunction"
+    },
+    {
+      "name": "Finasteride",
+      "genericName": "finasteride",
+      "category": "Genitourinary",
+      "description": "5-alpha reductase inhibitor for BPH"
+    },
+    {
+      "name": "Methotrexate",
+      "genericName": "methotrexate",
+      "category": "Rheumatologic",
+      "description": "DMARD for rheumatoid arthritis and autoimmune diseases"
+    },
+    {
+      "name": "Etanercept",
+      "genericName": "etanercept",
+      "category": "Rheumatologic",
+      "description": "TNF-alpha inhibitor for rheumatoid arthritis"
+    },
+    {
+      "name": "Allopurinol",
+      "genericName": "allopurinol",
+      "category": "Rheumatologic",
+      "description": "Xanthine oxidase inhibitor for gout prevention"
+    },
+    {
+      "name": "Phenytoin",
+      "genericName": "phenytoin",
+      "category": "Neurologic",
+      "description": "Anticonvulsant for seizure control"
+    },
+    {
+      "name": "Levetiracetam",
+      "genericName": "levetiracetam",
+      "category": "Neurologic",
+      "description": "Anticonvulsant with novel mechanism"
+    },
+    {
+      "name": "Gabapentin",
+      "genericName": "gabapentin",
+      "category": "Neurologic",
+      "description": "Anticonvulsant for neuropathic pain"
+    },
+    {
+      "name": "Sumatriptan",
+      "genericName": "sumatriptan",
+      "category": "Neurologic",
+      "description": "Triptan for acute migraine treatment"
+    },
+    {
+      "name": "Propranolol",
+      "genericName": "propranolol",
+      "category": "Neurologic",
+      "description": "Beta-blocker for migraine prophylaxis"
+    },
+    {
+      "name": "Fluconazole",
+      "genericName": "fluconazole",
+      "category": "Antifungal",
+      "description": "Triazole antifungal for candida infections"
+    },
+    {
+      "name": "Ketoconazole",
+      "genericName": "ketoconazole",
+      "category": "Antifungal",
+      "description": "Broad-spectrum imidazole antifungal"
+    },
+    {
+      "name": "Acyclovir",
+      "genericName": "acyclovir",
+      "category": "Antiviral",
+      "description": "Nucleoside analog for herpes simplex virus"
+    },
+    {
+      "name": "Oseltamivir",
+      "genericName": "oseltamivir",
+      "category": "Antiviral",
+      "description": "Neuraminidase inhibitor for influenza"
+    },
+    {
+      "name": "Ribavirin",
+      "genericName": "ribavirin",
+      "category": "Antiviral",
+      "description": "Nucleoside analog for viral infections"
+    },
+    {
+      "name": "Tetanus Toxoid",
+      "genericName": "tetanus toxoid",
+      "category": "Vaccine",
+      "description": "Immunization against tetanus"
+    },
+    {
+      "name": "Influenza Vaccine",
+      "genericName": "influenza vaccine",
+      "category": "Vaccine",
+      "description": "Annual vaccination against influenza"
+    },
+    {
+      "name": "COVID-19 Vaccine",
+      "genericName": "covid-19 vaccine",
+      "category": "Vaccine",
+      "description": "Immunization against SARS-CoV-2"
+    },
+    {
+      "name": "Diazepam",
+      "genericName": "diazepam",
+      "category": "Psychiatric",
+      "description": "Benzodiazepine for anxiety and muscle relaxation"
+    },
+    {
+      "name": "Clopidogrel",
+      "genericName": "clopidogrel",
+      "category": "Cardiovascular",
+      "description": "Antiplatelet agent for cardiovascular events"
+    },
+    {
+      "name": "Ezetimibe",
+      "genericName": "ezetimibe",
+      "category": "Cardiovascular",
+      "description": "Cholesterol absorption inhibitor"
+    },
+    {
+      "name": "Warfarin",
+      "genericName": "warfarin sodium",
+      "category": "Anticoagulant",
+      "description": "Vitamin K antagonist for prevention and treatment of thromboembolic disorders; requires INR monitoring"
+    },
+    {
+      "name": "Apixaban",
+      "genericName": "apixaban",
+      "category": "Anticoagulant",
+      "description": "Direct factor Xa inhibitor for stroke prevention in atrial fibrillation and DVT treatment; no INR monitoring required"
+    },
+    {
+      "name": "Amlodipine",
+      "genericName": "amlodipine besylate",
+      "category": "Cardiovascular",
+      "description": "Long-acting dihydropyridine calcium channel blocker for hypertension and stable angina"
+    },
+    {
+      "name": "Pantoprazole",
+      "genericName": "pantoprazole sodium",
+      "category": "Gastrointestinal",
+      "description": "Proton pump inhibitor available in oral and IV forms for GERD, erosive esophagitis, and peptic ulcer disease"
+    },
+    {
+      "name": "Ondansetron",
+      "genericName": "ondansetron hydrochloride",
+      "category": "Gastrointestinal",
+      "description": "Selective 5-HT3 receptor antagonist for nausea and vomiting in chemotherapy, radiation, and postoperative settings"
+    },
+    {
+      "name": "Empagliflozin",
+      "genericName": "empagliflozin",
+      "category": "Endocrine",
+      "description": "SGLT2 inhibitor that reduces blood glucose via glucosuria; demonstrated cardiovascular and renal protective benefits in type 2 diabetes"
+    },
+    {
+      "name": "Venlafaxine",
+      "genericName": "venlafaxine hydrochloride",
+      "category": "Psychiatric",
+      "description": "Serotonin-norepinephrine reuptake inhibitor for major depressive disorder, GAD, social anxiety, and panic disorder"
+    },
+    {
+      "name": "Bupropion",
+      "genericName": "bupropion hydrochloride",
+      "category": "Psychiatric",
+      "description": "Norepinephrine-dopamine reuptake inhibitor antidepressant without sexual side effects; also approved for smoking cessation"
+    },
+    {
+      "name": "Quetiapine",
+      "genericName": "quetiapine fumarate",
+      "category": "Psychiatric",
+      "description": "Atypical antipsychotic with activity at dopamine, serotonin, histamine, and adrenergic receptors for schizophrenia and bipolar disorder"
+    },
+    {
+      "name": "Tramadol",
+      "genericName": "tramadol hydrochloride",
+      "category": "Pain Relief",
+      "description": "Centrally acting analgesic with weak mu-opioid agonism and norepinephrine/serotonin reuptake inhibition for moderate to severe pain"
+    },
+    {
+      "name": "Celecoxib",
+      "genericName": "celecoxib",
+      "category": "Pain Relief",
+      "description": "Selective COX-2 inhibitor NSAID with reduced GI ulceration risk compared to non-selective NSAIDs"
+    },
+    {
+      "name": "Tiotropium",
+      "genericName": "tiotropium bromide",
+      "category": "Respiratory",
+      "description": "Once-daily long-acting anticholinergic bronchodilator for COPD maintenance; blocks M3 muscarinic receptors"
+    },
+    {
+      "name": "Salmeterol",
+      "genericName": "salmeterol xinafoate",
+      "category": "Respiratory",
+      "description": "Long-acting beta2-adrenergic agonist providing 12-hour bronchodilation; used with inhaled corticosteroids for asthma maintenance"
+    },
+    {
+      "name": "Hydroxychloroquine",
+      "genericName": "hydroxychloroquine sulfate",
+      "category": "Rheumatologic",
+      "description": "DMARD derived from chloroquine used for rheumatoid arthritis and systemic lupus erythematosus; requires retinal monitoring"
+    },
+    {
+      "name": "Adalimumab",
+      "genericName": "adalimumab",
+      "category": "Immunosuppressant",
+      "description": "Fully human anti-TNF-alpha monoclonal antibody for rheumatoid arthritis, psoriasis, psoriatic arthritis, and Crohn's disease"
+    },
+    {
+      "name": "Colchicine",
+      "genericName": "colchicine",
+      "category": "Rheumatologic",
+      "description": "Anti-inflammatory agent that inhibits tubulin polymerization and neutrophil migration; used for acute gout flares and prophylaxis"
+    },
+    {
+      "name": "Valproate",
+      "genericName": "valproic acid / divalproex sodium",
+      "category": "Neurologic",
+      "description": "Broad-spectrum anticonvulsant and mood stabilizer that increases GABA and modulates sodium channels; requires liver function monitoring"
+    },
+    {
+      "name": "Topiramate",
+      "genericName": "topiramate",
+      "category": "Neurologic",
+      "description": "Anticonvulsant blocking sodium channels and potentiating GABA; used for seizures and migraine prophylaxis; associated with cognitive side effects"
+    },
+    {
+      "name": "Donepezil",
+      "genericName": "donepezil hydrochloride",
+      "category": "Neurologic",
+      "description": "Selective reversible acetylcholinesterase inhibitor for symptomatic treatment of mild to severe Alzheimer's disease"
+    },
+    {
+      "name": "Valacyclovir",
+      "genericName": "valacyclovir hydrochloride",
+      "category": "Antiviral",
+      "description": "Prodrug of acyclovir with improved oral bioavailability; used for herpes zoster, genital herpes, and herpes labialis"
+    },
+    {
+      "name": "Ceftriaxone",
+      "genericName": "ceftriaxone sodium",
+      "category": "Antibiotic",
+      "description": "Third-generation cephalosporin with parenteral administration and excellent CNS penetration; used for pneumonia, meningitis, and sepsis"
+    },
+    {
+      "name": "Trimethoprim-Sulfamethoxazole",
+      "genericName": "trimethoprim / sulfamethoxazole",
+      "category": "Antibiotic",
+      "description": "Fixed-ratio combination that sequentially blocks bacterial folate synthesis; used for UTIs, PCP prophylaxis, and MRSA skin infections"
+    },
+    {
+      "name": "Lamotrigine",
+      "genericName": "lamotrigine",
+      "category": "Neurologic",
+      "description": "Sodium channel and voltage-gated calcium channel stabilizer approved for epilepsy and bipolar disorder maintenance; titrated slowly to minimize Stevens-Johnson syndrome risk"
+    },
+    {
+      "name": "Duloxetine",
+      "genericName": "duloxetine hydrochloride",
+      "category": "Psychiatric",
+      "description": "Serotonin-norepinephrine reuptake inhibitor approved for major depressive disorder, generalized anxiety disorder, diabetic peripheral neuropathy, fibromyalgia, and chronic musculoskeletal pain"
+    },
+    {
+      "name": "Aripiprazole",
+      "genericName": "aripiprazole",
+      "category": "Psychiatric",
+      "description": "Partial dopamine D2 and serotonin 5-HT1A agonist with 5-HT2A antagonism; favorable metabolic profile compared to other antipsychotics; approved for schizophrenia, bipolar disorder, and adjunctive depression"
+    },
+    {
+      "name": "Lithium",
+      "genericName": "lithium carbonate",
+      "category": "Psychiatric",
+      "description": "Monovalent cation mood stabilizer with strong evidence for bipolar disorder and suicide risk reduction; narrow therapeutic index requires regular serum level monitoring"
+    },
+    {
+      "name": "Methylphenidate",
+      "genericName": "methylphenidate hydrochloride",
+      "category": "Psychiatric",
+      "description": "Central nervous system stimulant blocking dopamine and norepinephrine reuptake; first-line treatment for ADHD with immediate and extended-release formulations"
+    },
+    {
+      "name": "Zolpidem",
+      "genericName": "zolpidem tartrate",
+      "category": "Psychiatric",
+      "description": "Non-benzodiazepine GABA-A receptor modulator selective for omega-1 subunit; reduces sleep onset latency with lower dependence risk than benzodiazepines; approved for short-term insomnia"
+    },
+    {
+      "name": "Furosemide",
+      "genericName": "furosemide",
+      "category": "Cardiovascular",
+      "description": "Loop diuretic inhibiting Na-K-2Cl cotransporter in the thick ascending limb; rapid onset diuresis for heart failure decompensation, edema, and hypertension"
+    },
+    {
+      "name": "Spironolactone",
+      "genericName": "spironolactone",
+      "category": "Cardiovascular",
+      "description": "Mineralocorticoid receptor antagonist and potassium-sparing diuretic; reduces mortality in systolic heart failure (RALES trial) and used for resistant hypertension and hyperaldosteronism"
+    },
+    {
+      "name": "Digoxin",
+      "genericName": "digoxin",
+      "category": "Cardiovascular",
+      "description": "Cardiac glycoside inhibiting Na-K ATPase; positive inotropy and vagally mediated AV node slowing; used for heart failure with reduced ejection fraction and rate control in atrial fibrillation"
+    },
+    {
+      "name": "Rosuvastatin",
+      "genericName": "rosuvastatin calcium",
+      "category": "Cardiovascular",
+      "description": "High-intensity HMG-CoA reductase inhibitor with greatest LDL-lowering potency among statins; approved from age 8 for familial hypercholesterolemia; once-daily dosing"
+    },
+    {
+      "name": "Ramipril",
+      "genericName": "ramipril",
+      "category": "Cardiovascular",
+      "description": "ACE inhibitor with proven mortality benefit in post-MI left ventricular dysfunction (AIRE trial) and high-risk cardiovascular patients (HOPE trial); also used for hypertension and diabetic nephropathy"
+    },
+    {
+      "name": "Tamsulosin",
+      "genericName": "tamsulosin hydrochloride",
+      "category": "Genitourinary",
+      "description": "Highly selective alpha-1A and alpha-1D adrenoceptor blocker that relaxes prostate and bladder neck smooth muscle to improve urinary flow in benign prostatic hyperplasia"
+    },
+    {
+      "name": "Tadalafil",
+      "genericName": "tadalafil",
+      "category": "Genitourinary",
+      "description": "Long-acting PDE5 inhibitor with 36-hour duration for erectile dysfunction; also approved as once-daily low-dose therapy for benign prostatic hyperplasia and pulmonary arterial hypertension"
+    },
+    {
+      "name": "Isotretinoin",
+      "genericName": "isotretinoin",
+      "category": "Dermatologic",
+      "description": "Oral retinoid that dramatically reduces sebaceous gland size and sebum production, normalizes follicular keratinization, and has anti-inflammatory properties; highly effective for severe nodulocystic acne with teratogenic risk requiring iPLEDGE monitoring"
+    },
+    {
+      "name": "Tacrolimus",
+      "genericName": "tacrolimus",
+      "category": "Immunosuppressant",
+      "description": "Calcineurin inhibitor blocking T-cell activation via FKBP12 binding; available as systemic formulation for transplant rejection and topical formulation for atopic dermatitis and psoriasis in steroid-refractory cases"
+    },
+    {
+      "name": "Mesalamine",
+      "genericName": "mesalamine",
+      "category": "Gastrointestinal",
+      "description": "5-aminosalicylic acid derivative with topical anti-inflammatory action on colonic mucosa; first-line therapy for induction and maintenance of remission in mild-to-moderate ulcerative colitis"
+    },
+    {
+      "name": "Budesonide",
+      "genericName": "budesonide",
+      "category": "Respiratory",
+      "description": "Potent synthetic corticosteroid with high topical anti-inflammatory activity and extensive first-pass hepatic metabolism limiting systemic exposure; used as inhaled formulation for asthma and oral formulation for inflammatory bowel disease"
+    },
+    {
+      "name": "Metronidazole",
+      "genericName": "metronidazole",
+      "category": "Antibiotic",
+      "description": "Nitroimidazole antibiotic and antiprotozoal agent with excellent anaerobic and microaerophilic coverage; essential component of H. pylori eradication and Clostridioides difficile treatment"
+    },
+    {
+      "name": "Clindamycin",
+      "genericName": "clindamycin phosphate",
+      "category": "Antibiotic",
+      "description": "Lincosamide antibiotic inhibiting 50S ribosomal subunit with excellent gram-positive and anaerobic coverage; used for skin and soft tissue infections including community-acquired MRSA"
+    },
+    {
+      "name": "Levofloxacin",
+      "genericName": "levofloxacin",
+      "category": "Antibiotic",
+      "description": "Respiratory fluoroquinolone with broad-spectrum bactericidal activity against gram-positive and gram-negative organisms including atypicals; used for pneumonia, UTIs, sinusitis, and skin infections"
+    },
+    {
+      "name": "Mirtazapine",
+      "genericName": "mirtazapine",
+      "category": "Psychiatric",
+      "description": "Noradrenergic and specific serotonergic antidepressant blocking alpha-2 autoreceptors and heteroreceptors; potent H1 antihistamine activity promotes sleep; useful for depression with insomnia and poor appetite"
+    },
+    {
+      "name": "Risperidone",
+      "genericName": "risperidone",
+      "category": "Psychiatric",
+      "description": "Second-generation antipsychotic with potent dopamine D2 and serotonin 5-HT2A antagonism; effective for schizophrenia positive and negative symptoms and bipolar mania"
+    },
+    {
+      "name": "Amphetamine Salts",
+      "genericName": "mixed amphetamine salts",
+      "category": "Psychiatric",
+      "description": "Mixed salts of amphetamine enantiomers that release dopamine and norepinephrine from presynaptic terminals; highly effective for ADHD inattention, hyperactivity, and impulsivity across age groups"
+    },
+    {
+      "name": "Carbamazepine",
+      "genericName": "carbamazepine",
+      "category": "Neurologic",
+      "description": "Sodium channel blocker anticonvulsant and mood stabilizer; first-line for focal seizures and trigeminal neuralgia; used in bipolar disorder; requires monitoring for agranulocytosis and hyponatremia"
+    },
+    {
+      "name": "Tretinoin",
+      "genericName": "tretinoin",
+      "category": "Dermatologic",
+      "description": "All-trans retinoic acid that normalizes follicular epithelial turnover, reduces comedone formation, and has anti-inflammatory properties; topical treatment for acne vulgaris and photodamaged skin"
+    },
+    {
+      "name": "Bisoprolol",
+      "genericName": "bisoprolol fumarate",
+      "category": "Cardiovascular",
+      "description": "Highly cardioselective beta-1 adrenergic blocker with proven mortality reduction in systolic heart failure (CIBIS-II trial); once-daily dosing for heart failure and hypertension"
+    },
+    {
+      "name": "Beclomethasone",
+      "genericName": "beclomethasone dipropionate",
+      "category": "Respiratory",
+      "description": "Inhaled corticosteroid with potent local anti-inflammatory activity in the airways; available as metered-dose and dry powder inhalers for persistent asthma and COPD with frequent exacerbations"
+    }
   ],
   "conditions": [
-    { "name": "Streptococcal Pharyngitis", "category": "Infectious", "description": "Bacterial throat infection caused by Group A Streptococcus", "symptoms": "Sore throat, fever, swollen tonsils, exudate, cervical lymphadenopathy" },
-    { "name": "Urinary Tract Infection", "category": "Infectious", "description": "Infection of the urinary system, most commonly by E. coli", "symptoms": "Dysuria, urinary urgency, frequency, suprapubic pain, cloudy urine" },
-    { "name": "Pneumonia", "category": "Infectious", "description": "Lung parenchymal infection causing inflammation and consolidation", "symptoms": "Productive cough, fever, dyspnea, pleuritic chest pain, fatigue" },
-    { "name": "Acute Bronchitis", "category": "Respiratory", "description": "Self-limited inflammation of bronchial tubes, usually viral in origin", "symptoms": "Persistent cough, mucus production, mild dyspnea, chest discomfort" },
-    { "name": "Gastroesophageal Reflux Disease", "category": "Gastrointestinal", "description": "Chronic acid reflux from stomach to esophagus causing mucosal injury", "symptoms": "Heartburn, regurgitation, chest pain, chronic cough, hoarseness" },
-    { "name": "Peptic Ulcer Disease", "category": "Gastrointestinal", "description": "Ulceration of stomach or duodenal lining, commonly caused by H. pylori or NSAIDs", "symptoms": "Epigastric pain, nausea, vomiting, bloating, melena in bleeding ulcers" },
-    { "name": "Type 2 Diabetes Mellitus", "category": "Endocrine", "description": "Chronic metabolic disorder characterized by insulin resistance and relative insulin deficiency", "symptoms": "Polyuria, polydipsia, fatigue, blurred vision, recurrent infections, slow wound healing" },
-    { "name": "Hypertension", "category": "Cardiovascular", "description": "Persistently elevated arterial blood pressure increasing risk of cardiovascular events", "symptoms": "Often asymptomatic, headaches, dizziness, epistaxis in severe cases" },
-    { "name": "Hyperlipidemia", "category": "Cardiovascular", "description": "Elevated blood cholesterol and triglycerides increasing atherosclerosis risk", "symptoms": "Asymptomatic, detected by lipid panel; xanthomas and xanthelasma in severe cases" },
-    { "name": "Congestive Heart Failure", "category": "Cardiovascular", "description": "Impaired cardiac pumping function leading to fluid accumulation and reduced output", "symptoms": "Dyspnea on exertion, orthopnea, paroxysmal nocturnal dyspnea, peripheral edema, fatigue" },
-    { "name": "Major Depressive Disorder", "category": "Psychiatric", "description": "Persistent mood disorder characterized by depressed mood and anhedonia lasting at least 2 weeks", "symptoms": "Depressed mood, anhedonia, sleep disturbances, fatigue, concentration difficulty, suicidal ideation" },
-    { "name": "Generalized Anxiety Disorder", "category": "Psychiatric", "description": "Excessive uncontrollable worry about multiple domains for at least 6 months", "symptoms": "Excessive worry, restlessness, muscle tension, fatigue, concentration difficulty, irritability, sleep disturbance" },
-    { "name": "Panic Disorder", "category": "Psychiatric", "description": "Recurrent unexpected panic attacks with persistent worry about future attacks", "symptoms": "Sudden intense fear, tachycardia, diaphoresis, dyspnea, chest pain, derealization, fear of dying" },
-    { "name": "Acute Pain", "category": "Pain", "description": "Recent onset pain from injury, surgery, or acute illness serving a protective function", "symptoms": "Localized or diffuse pain, tenderness, guarding, autonomic responses such as tachycardia" },
-    { "name": "Chronic Pain Syndrome", "category": "Pain", "description": "Persistent pain lasting more than 3 months often with central sensitization", "symptoms": "Ongoing pain, functional disability, sleep disruption, depression, anxiety" },
-    { "name": "Allergic Rhinitis", "category": "Allergy", "description": "IgE-mediated inflammation of nasal mucosa triggered by inhaled allergens", "symptoms": "Rhinorrhea, nasal congestion, sneezing, pruritus of nose and eyes, postnasal drip" },
-    { "name": "Urticaria", "category": "Allergy", "description": "Mast cell-mediated raised itchy wheals on skin, acute or chronic", "symptoms": "Pruritic raised wheals, angioedema, burning, may involve lips and eyelids" },
-    { "name": "Asthma", "category": "Respiratory", "description": "Chronic inflammatory airway disease with variable airflow obstruction and bronchial hyperresponsiveness", "symptoms": "Wheezing, shortness of breath, chest tightness, nocturnal cough, exercise limitation" },
-    { "name": "COPD", "category": "Respiratory", "description": "Chronic obstructive pulmonary disease with irreversible airflow limitation, typically from smoking", "symptoms": "Dyspnea on exertion, chronic productive cough, sputum production, frequent exacerbations" },
-    { "name": "Rheumatoid Arthritis", "category": "Rheumatologic", "description": "Systemic autoimmune inflammatory disease primarily affecting synovial joints", "symptoms": "Symmetric joint pain and swelling, morning stiffness over 1 hour, fatigue, rheumatoid nodules" },
-    { "name": "Osteoarthritis", "category": "Rheumatologic", "description": "Degenerative joint disease from cartilage breakdown and bony changes", "symptoms": "Joint pain worsening with activity, stiffness, crepitus, reduced range of motion, Heberden nodes" },
-    { "name": "Gout", "category": "Rheumatologic", "description": "Monosodium urate crystal deposition in joints from hyperuricemia", "symptoms": "Acute severe joint pain typically in first MTP joint, erythema, warmth, swelling, tophi in chronic gout" },
-    { "name": "Epilepsy", "category": "Neurologic", "description": "Chronic neurological disorder defined by recurrent unprovoked seizures", "symptoms": "Recurrent seizures, loss of consciousness, convulsions, postictal confusion, absence spells" },
-    { "name": "Migraine", "category": "Neurologic", "description": "Recurrent moderate to severe headache disorder often with neurological features", "symptoms": "Unilateral pulsatile headache, photophobia, phonophobia, nausea, vomiting, aura in some patients" },
-    { "name": "Neuropathic Pain", "category": "Neurologic", "description": "Pain arising from lesion or disease of the somatosensory nervous system", "symptoms": "Burning, shooting or stabbing pain, allodynia, hyperalgesia, tingling, numbness" },
-    { "name": "Hypothyroidism", "category": "Endocrine", "description": "Insufficient thyroid hormone production leading to reduced metabolic rate", "symptoms": "Fatigue, weight gain, cold intolerance, constipation, dry skin, bradycardia, myxedema in severe cases" },
-    { "name": "Erectile Dysfunction", "category": "Genitourinary", "description": "Persistent inability to achieve or maintain erection sufficient for sexual activity", "symptoms": "Inability to achieve erection, reduced libido, premature ejaculation, psychological distress" },
-    { "name": "Benign Prostatic Hyperplasia", "category": "Genitourinary", "description": "Non-malignant enlargement of the prostate gland causing bladder outlet obstruction", "symptoms": "Urinary urgency, frequency, weak stream, hesitancy, incomplete bladder emptying, nocturia" },
-    { "name": "Candidiasis", "category": "Infectious", "description": "Opportunistic fungal infection by Candida species affecting mucous membranes or skin", "symptoms": "White plaques, itching, burning, erythema; vaginal discharge in vulvovaginal candidiasis" },
-    { "name": "Herpes Simplex Infection", "category": "Infectious", "description": "Viral infection by HSV-1 or HSV-2 causing orolabial or genital lesions with latent recurrences", "symptoms": "Painful vesicles, ulceration, crusting, prodromal tingling or burning, lymphadenopathy" },
-    { "name": "Influenza", "category": "Infectious", "description": "Acute viral respiratory illness caused by influenza A or B viruses", "symptoms": "Abrupt onset fever, chills, myalgia, headache, dry cough, sore throat, fatigue" },
-    { "name": "Insomnia", "category": "Psychiatric", "description": "Difficulty initiating or maintaining sleep or non-restorative sleep with daytime impairment", "symptoms": "Sleep onset difficulty, frequent awakening, early morning awakening, daytime fatigue, irritability" },
-    { "name": "Vertigo", "category": "Neurologic", "description": "Sensation of spinning or movement at rest, most commonly from inner ear dysfunction", "symptoms": "Spinning sensation, nausea, vomiting, nystagmus, imbalance, hearing loss in Meniere disease" },
-    { "name": "Myocardial Infarction", "category": "Cardiovascular", "description": "Irreversible myocardial necrosis from acute coronary artery occlusion", "symptoms": "Crushing chest pain radiating to arm or jaw, diaphoresis, dyspnea, nausea, syncope" },
-    { "name": "Atrial Fibrillation", "category": "Cardiovascular", "description": "Irregular rapid atrial electrical activity causing disorganized ventricular response", "symptoms": "Palpitations, dyspnea, fatigue, exercise intolerance, dizziness, syncope, stroke risk" },
-    { "name": "Bacterial Skin Infection", "category": "Infectious", "description": "Surface skin infection from gram-positive bacteria including Staphylococcus and Streptococcus", "symptoms": "Erythema, warmth, swelling, purulent drainage, fever in systemic cases" },
-    { "name": "Deep Vein Thrombosis", "category": "Vascular", "description": "Blood clot formation in a deep vein, most commonly the lower extremity; risk of pulmonary embolism", "symptoms": "Unilateral leg swelling, pain or tenderness, warmth, erythema, dilated superficial veins; may be asymptomatic" },
-    { "name": "Bipolar Disorder", "category": "Psychiatric", "description": "Chronic mood disorder with recurrent manic or hypomanic and depressive episodes", "symptoms": "Manic episodes with elevated mood, grandiosity, decreased sleep, pressured speech; depressive episodes with low mood, anhedonia, fatigue, suicidal ideation" },
-    { "name": "Schizophrenia", "category": "Psychiatric", "description": "Chronic psychiatric disorder with disturbances in thought, perception, and behavior", "symptoms": "Auditory hallucinations, delusions, disorganized thinking, flat affect, avolition, alogia, cognitive deficits, social withdrawal" },
-    { "name": "Type 1 Diabetes Mellitus", "category": "Endocrine", "description": "Autoimmune destruction of pancreatic beta cells causing absolute insulin deficiency and lifelong insulin dependence", "symptoms": "Polyuria, polydipsia, polyphagia, unintentional weight loss, fatigue, blurred vision, diabetic ketoacidosis at presentation" },
-    { "name": "Alzheimer's Disease", "category": "Neurologic", "description": "Progressive neurodegenerative disease and most common cause of dementia, characterized by amyloid plaques and neurofibrillary tangles", "symptoms": "Progressive memory loss especially recent memory, aphasia, disorientation, impaired judgment, apraxia, personality changes, loss of daily function" },
-    { "name": "Parkinson's Disease", "category": "Neurologic", "description": "Progressive neurodegenerative disorder from dopaminergic neuron loss in the substantia nigra with Lewy body formation", "symptoms": "Resting pill-rolling tremor, bradykinesia, muscular rigidity, postural instability, micrographia, hypomimia, autonomic dysfunction" },
-    { "name": "Fibromyalgia", "category": "Pain", "description": "Chronic widespread pain syndrome from central sensitization and altered pain processing without structural pathology", "symptoms": "Widespread musculoskeletal pain, fatigue, unrefreshing sleep, cognitive dysfunction, headaches, heightened sensitivity to pressure and temperature" },
-    { "name": "Psoriasis", "category": "Dermatologic", "description": "Chronic immune-mediated inflammatory skin disease driven by T-cell activation and cytokine overproduction", "symptoms": "Erythematous plaques with silver-white scale, pruritus, nail pitting and onycholysis, scalp involvement, Koebner phenomenon" },
-    { "name": "HIV/AIDS", "category": "Infectious", "description": "Retroviral infection destroying CD4+ T cells; AIDS defined by CD4 below 200 or AIDS-defining illness; managed with antiretroviral therapy", "symptoms": "Acute HIV: fever, lymphadenopathy, pharyngitis, rash, myalgia; Chronic: often asymptomatic; AIDS: opportunistic infections, weight loss, night sweats, oral candidiasis" },
-    { "name": "Crohn's Disease", "category": "Gastrointestinal", "description": "Chronic transmural inflammatory bowel disease affecting any GI segment with skip lesions and extraintestinal manifestations", "symptoms": "Chronic diarrhea, right lower quadrant abdominal pain, weight loss, fever, fatigue, perianal fistulae, extraintestinal manifestations including arthritis and uveitis" },
-    { "name": "Irritable Bowel Syndrome", "category": "Gastrointestinal", "description": "Functional GI disorder with chronic abdominal pain and altered bowel habits without structural abnormality; diagnosed by Rome IV criteria", "symptoms": "Recurrent abdominal pain, bloating and distension, altered bowel habits, mucus in stool, incomplete evacuation, symptoms worsened by stress" },
-    { "name": "Cellulitis", "category": "Infectious", "description": "Acute bacterial infection of dermis and subcutaneous tissue, most commonly from Streptococcus or Staphylococcus aureus", "symptoms": "Spreading erythema with ill-defined borders, swelling, warmth, tenderness, fever, regional lymphadenopathy" },
-    { "name": "COVID-19", "category": "Infectious", "description": "Respiratory illness from SARS-CoV-2 ranging from asymptomatic to severe pneumonia and ARDS; diagnosed by RT-PCR", "symptoms": "Fever, dry cough, dyspnea, fatigue, myalgia, headache, anosmia, ageusia, sore throat, nausea; severe cases: pneumonia, hypoxia, ARDS" },
-    { "name": "Herpes Zoster", "category": "Infectious", "description": "Reactivation of latent varicella-zoster virus from sensory ganglia; risk increases with age and immunosuppression", "symptoms": "Prodromal dermatomal pain and burning, unilateral vesicular rash that does not cross midline, allodynia, fever, postherpetic neuralgia in 10-18% of cases" }
+    {
+      "name": "Streptococcal Pharyngitis",
+      "category": "Infectious",
+      "description": "Bacterial throat infection caused by Group A Streptococcus",
+      "symptoms": "Sore throat, fever, swollen tonsils, exudate, cervical lymphadenopathy"
+    },
+    {
+      "name": "Urinary Tract Infection",
+      "category": "Infectious",
+      "description": "Infection of the urinary system, most commonly by E. coli",
+      "symptoms": "Dysuria, urinary urgency, frequency, suprapubic pain, cloudy urine"
+    },
+    {
+      "name": "Pneumonia",
+      "category": "Infectious",
+      "description": "Lung parenchymal infection causing inflammation and consolidation",
+      "symptoms": "Productive cough, fever, dyspnea, pleuritic chest pain, fatigue"
+    },
+    {
+      "name": "Acute Bronchitis",
+      "category": "Respiratory",
+      "description": "Self-limited inflammation of bronchial tubes, usually viral in origin",
+      "symptoms": "Persistent cough, mucus production, mild dyspnea, chest discomfort"
+    },
+    {
+      "name": "Gastroesophageal Reflux Disease",
+      "category": "Gastrointestinal",
+      "description": "Chronic acid reflux from stomach to esophagus causing mucosal injury",
+      "symptoms": "Heartburn, regurgitation, chest pain, chronic cough, hoarseness"
+    },
+    {
+      "name": "Peptic Ulcer Disease",
+      "category": "Gastrointestinal",
+      "description": "Ulceration of stomach or duodenal lining, commonly caused by H. pylori or NSAIDs",
+      "symptoms": "Epigastric pain, nausea, vomiting, bloating, melena in bleeding ulcers"
+    },
+    {
+      "name": "Type 2 Diabetes Mellitus",
+      "category": "Endocrine",
+      "description": "Chronic metabolic disorder characterized by insulin resistance and relative insulin deficiency",
+      "symptoms": "Polyuria, polydipsia, fatigue, blurred vision, recurrent infections, slow wound healing"
+    },
+    {
+      "name": "Hypertension",
+      "category": "Cardiovascular",
+      "description": "Persistently elevated arterial blood pressure increasing risk of cardiovascular events",
+      "symptoms": "Often asymptomatic, headaches, dizziness, epistaxis in severe cases"
+    },
+    {
+      "name": "Hyperlipidemia",
+      "category": "Cardiovascular",
+      "description": "Elevated blood cholesterol and triglycerides increasing atherosclerosis risk",
+      "symptoms": "Asymptomatic, detected by lipid panel; xanthomas and xanthelasma in severe cases"
+    },
+    {
+      "name": "Congestive Heart Failure",
+      "category": "Cardiovascular",
+      "description": "Impaired cardiac pumping function leading to fluid accumulation and reduced output",
+      "symptoms": "Dyspnea on exertion, orthopnea, paroxysmal nocturnal dyspnea, peripheral edema, fatigue"
+    },
+    {
+      "name": "Major Depressive Disorder",
+      "category": "Psychiatric",
+      "description": "Persistent mood disorder characterized by depressed mood and anhedonia lasting at least 2 weeks",
+      "symptoms": "Depressed mood, anhedonia, sleep disturbances, fatigue, concentration difficulty, suicidal ideation"
+    },
+    {
+      "name": "Generalized Anxiety Disorder",
+      "category": "Psychiatric",
+      "description": "Excessive uncontrollable worry about multiple domains for at least 6 months",
+      "symptoms": "Excessive worry, restlessness, muscle tension, fatigue, concentration difficulty, irritability, sleep disturbance"
+    },
+    {
+      "name": "Panic Disorder",
+      "category": "Psychiatric",
+      "description": "Recurrent unexpected panic attacks with persistent worry about future attacks",
+      "symptoms": "Sudden intense fear, tachycardia, diaphoresis, dyspnea, chest pain, derealization, fear of dying"
+    },
+    {
+      "name": "Acute Pain",
+      "category": "Pain",
+      "description": "Recent onset pain from injury, surgery, or acute illness serving a protective function",
+      "symptoms": "Localized or diffuse pain, tenderness, guarding, autonomic responses such as tachycardia"
+    },
+    {
+      "name": "Chronic Pain Syndrome",
+      "category": "Pain",
+      "description": "Persistent pain lasting more than 3 months often with central sensitization",
+      "symptoms": "Ongoing pain, functional disability, sleep disruption, depression, anxiety"
+    },
+    {
+      "name": "Allergic Rhinitis",
+      "category": "Allergy",
+      "description": "IgE-mediated inflammation of nasal mucosa triggered by inhaled allergens",
+      "symptoms": "Rhinorrhea, nasal congestion, sneezing, pruritus of nose and eyes, postnasal drip"
+    },
+    {
+      "name": "Urticaria",
+      "category": "Allergy",
+      "description": "Mast cell-mediated raised itchy wheals on skin, acute or chronic",
+      "symptoms": "Pruritic raised wheals, angioedema, burning, may involve lips and eyelids"
+    },
+    {
+      "name": "Asthma",
+      "category": "Respiratory",
+      "description": "Chronic inflammatory airway disease with variable airflow obstruction and bronchial hyperresponsiveness",
+      "symptoms": "Wheezing, shortness of breath, chest tightness, nocturnal cough, exercise limitation"
+    },
+    {
+      "name": "COPD",
+      "category": "Respiratory",
+      "description": "Chronic obstructive pulmonary disease with irreversible airflow limitation, typically from smoking",
+      "symptoms": "Dyspnea on exertion, chronic productive cough, sputum production, frequent exacerbations"
+    },
+    {
+      "name": "Rheumatoid Arthritis",
+      "category": "Rheumatologic",
+      "description": "Systemic autoimmune inflammatory disease primarily affecting synovial joints",
+      "symptoms": "Symmetric joint pain and swelling, morning stiffness over 1 hour, fatigue, rheumatoid nodules"
+    },
+    {
+      "name": "Osteoarthritis",
+      "category": "Rheumatologic",
+      "description": "Degenerative joint disease from cartilage breakdown and bony changes",
+      "symptoms": "Joint pain worsening with activity, stiffness, crepitus, reduced range of motion, Heberden nodes"
+    },
+    {
+      "name": "Gout",
+      "category": "Rheumatologic",
+      "description": "Monosodium urate crystal deposition in joints from hyperuricemia",
+      "symptoms": "Acute severe joint pain typically in first MTP joint, erythema, warmth, swelling, tophi in chronic gout"
+    },
+    {
+      "name": "Epilepsy",
+      "category": "Neurologic",
+      "description": "Chronic neurological disorder defined by recurrent unprovoked seizures",
+      "symptoms": "Recurrent seizures, loss of consciousness, convulsions, postictal confusion, absence spells"
+    },
+    {
+      "name": "Migraine",
+      "category": "Neurologic",
+      "description": "Recurrent moderate to severe headache disorder often with neurological features",
+      "symptoms": "Unilateral pulsatile headache, photophobia, phonophobia, nausea, vomiting, aura in some patients"
+    },
+    {
+      "name": "Neuropathic Pain",
+      "category": "Neurologic",
+      "description": "Pain arising from lesion or disease of the somatosensory nervous system",
+      "symptoms": "Burning, shooting or stabbing pain, allodynia, hyperalgesia, tingling, numbness"
+    },
+    {
+      "name": "Hypothyroidism",
+      "category": "Endocrine",
+      "description": "Insufficient thyroid hormone production leading to reduced metabolic rate",
+      "symptoms": "Fatigue, weight gain, cold intolerance, constipation, dry skin, bradycardia, myxedema in severe cases"
+    },
+    {
+      "name": "Erectile Dysfunction",
+      "category": "Genitourinary",
+      "description": "Persistent inability to achieve or maintain erection sufficient for sexual activity",
+      "symptoms": "Inability to achieve erection, reduced libido, premature ejaculation, psychological distress"
+    },
+    {
+      "name": "Benign Prostatic Hyperplasia",
+      "category": "Genitourinary",
+      "description": "Non-malignant enlargement of the prostate gland causing bladder outlet obstruction",
+      "symptoms": "Urinary urgency, frequency, weak stream, hesitancy, incomplete bladder emptying, nocturia"
+    },
+    {
+      "name": "Candidiasis",
+      "category": "Infectious",
+      "description": "Opportunistic fungal infection by Candida species affecting mucous membranes or skin",
+      "symptoms": "White plaques, itching, burning, erythema; vaginal discharge in vulvovaginal candidiasis"
+    },
+    {
+      "name": "Herpes Simplex Infection",
+      "category": "Infectious",
+      "description": "Viral infection by HSV-1 or HSV-2 causing orolabial or genital lesions with latent recurrences",
+      "symptoms": "Painful vesicles, ulceration, crusting, prodromal tingling or burning, lymphadenopathy"
+    },
+    {
+      "name": "Influenza",
+      "category": "Infectious",
+      "description": "Acute viral respiratory illness caused by influenza A or B viruses",
+      "symptoms": "Abrupt onset fever, chills, myalgia, headache, dry cough, sore throat, fatigue"
+    },
+    {
+      "name": "Insomnia",
+      "category": "Psychiatric",
+      "description": "Difficulty initiating or maintaining sleep or non-restorative sleep with daytime impairment",
+      "symptoms": "Sleep onset difficulty, frequent awakening, early morning awakening, daytime fatigue, irritability"
+    },
+    {
+      "name": "Vertigo",
+      "category": "Neurologic",
+      "description": "Sensation of spinning or movement at rest, most commonly from inner ear dysfunction",
+      "symptoms": "Spinning sensation, nausea, vomiting, nystagmus, imbalance, hearing loss in Meniere disease"
+    },
+    {
+      "name": "Myocardial Infarction",
+      "category": "Cardiovascular",
+      "description": "Irreversible myocardial necrosis from acute coronary artery occlusion",
+      "symptoms": "Crushing chest pain radiating to arm or jaw, diaphoresis, dyspnea, nausea, syncope"
+    },
+    {
+      "name": "Atrial Fibrillation",
+      "category": "Cardiovascular",
+      "description": "Irregular rapid atrial electrical activity causing disorganized ventricular response",
+      "symptoms": "Palpitations, dyspnea, fatigue, exercise intolerance, dizziness, syncope, stroke risk"
+    },
+    {
+      "name": "Bacterial Skin Infection",
+      "category": "Infectious",
+      "description": "Surface skin infection from gram-positive bacteria including Staphylococcus and Streptococcus",
+      "symptoms": "Erythema, warmth, swelling, purulent drainage, fever in systemic cases"
+    },
+    {
+      "name": "Deep Vein Thrombosis",
+      "category": "Vascular",
+      "description": "Blood clot formation in a deep vein, most commonly the lower extremity; risk of pulmonary embolism",
+      "symptoms": "Unilateral leg swelling, pain or tenderness, warmth, erythema, dilated superficial veins; may be asymptomatic"
+    },
+    {
+      "name": "Bipolar Disorder",
+      "category": "Psychiatric",
+      "description": "Chronic mood disorder with recurrent manic or hypomanic and depressive episodes",
+      "symptoms": "Manic episodes with elevated mood, grandiosity, decreased sleep, pressured speech; depressive episodes with low mood, anhedonia, fatigue, suicidal ideation"
+    },
+    {
+      "name": "Schizophrenia",
+      "category": "Psychiatric",
+      "description": "Chronic psychiatric disorder with disturbances in thought, perception, and behavior",
+      "symptoms": "Auditory hallucinations, delusions, disorganized thinking, flat affect, avolition, alogia, cognitive deficits, social withdrawal"
+    },
+    {
+      "name": "Type 1 Diabetes Mellitus",
+      "category": "Endocrine",
+      "description": "Autoimmune destruction of pancreatic beta cells causing absolute insulin deficiency and lifelong insulin dependence",
+      "symptoms": "Polyuria, polydipsia, polyphagia, unintentional weight loss, fatigue, blurred vision, diabetic ketoacidosis at presentation"
+    },
+    {
+      "name": "Alzheimer's Disease",
+      "category": "Neurologic",
+      "description": "Progressive neurodegenerative disease and most common cause of dementia, characterized by amyloid plaques and neurofibrillary tangles",
+      "symptoms": "Progressive memory loss especially recent memory, aphasia, disorientation, impaired judgment, apraxia, personality changes, loss of daily function"
+    },
+    {
+      "name": "Parkinson's Disease",
+      "category": "Neurologic",
+      "description": "Progressive neurodegenerative disorder from dopaminergic neuron loss in the substantia nigra with Lewy body formation",
+      "symptoms": "Resting pill-rolling tremor, bradykinesia, muscular rigidity, postural instability, micrographia, hypomimia, autonomic dysfunction"
+    },
+    {
+      "name": "Fibromyalgia",
+      "category": "Pain",
+      "description": "Chronic widespread pain syndrome from central sensitization and altered pain processing without structural pathology",
+      "symptoms": "Widespread musculoskeletal pain, fatigue, unrefreshing sleep, cognitive dysfunction, headaches, heightened sensitivity to pressure and temperature"
+    },
+    {
+      "name": "Psoriasis",
+      "category": "Dermatologic",
+      "description": "Chronic immune-mediated inflammatory skin disease driven by T-cell activation and cytokine overproduction",
+      "symptoms": "Erythematous plaques with silver-white scale, pruritus, nail pitting and onycholysis, scalp involvement, Koebner phenomenon"
+    },
+    {
+      "name": "HIV/AIDS",
+      "category": "Infectious",
+      "description": "Retroviral infection destroying CD4+ T cells; AIDS defined by CD4 below 200 or AIDS-defining illness; managed with antiretroviral therapy",
+      "symptoms": "Acute HIV: fever, lymphadenopathy, pharyngitis, rash, myalgia; Chronic: often asymptomatic; AIDS: opportunistic infections, weight loss, night sweats, oral candidiasis"
+    },
+    {
+      "name": "Crohn's Disease",
+      "category": "Gastrointestinal",
+      "description": "Chronic transmural inflammatory bowel disease affecting any GI segment with skip lesions and extraintestinal manifestations",
+      "symptoms": "Chronic diarrhea, right lower quadrant abdominal pain, weight loss, fever, fatigue, perianal fistulae, extraintestinal manifestations including arthritis and uveitis"
+    },
+    {
+      "name": "Irritable Bowel Syndrome",
+      "category": "Gastrointestinal",
+      "description": "Functional GI disorder with chronic abdominal pain and altered bowel habits without structural abnormality; diagnosed by Rome IV criteria",
+      "symptoms": "Recurrent abdominal pain, bloating and distension, altered bowel habits, mucus in stool, incomplete evacuation, symptoms worsened by stress"
+    },
+    {
+      "name": "Cellulitis",
+      "category": "Infectious",
+      "description": "Acute bacterial infection of dermis and subcutaneous tissue, most commonly from Streptococcus or Staphylococcus aureus",
+      "symptoms": "Spreading erythema with ill-defined borders, swelling, warmth, tenderness, fever, regional lymphadenopathy"
+    },
+    {
+      "name": "COVID-19",
+      "category": "Infectious",
+      "description": "Respiratory illness from SARS-CoV-2 ranging from asymptomatic to severe pneumonia and ARDS; diagnosed by RT-PCR",
+      "symptoms": "Fever, dry cough, dyspnea, fatigue, myalgia, headache, anosmia, ageusia, sore throat, nausea; severe cases: pneumonia, hypoxia, ARDS"
+    },
+    {
+      "name": "Herpes Zoster",
+      "category": "Infectious",
+      "description": "Reactivation of latent varicella-zoster virus from sensory ganglia; risk increases with age and immunosuppression",
+      "symptoms": "Prodromal dermatomal pain and burning, unilateral vesicular rash that does not cross midline, allodynia, fever, postherpetic neuralgia in 10-18% of cases"
+    },
+    {
+      "name": "Attention-Deficit/Hyperactivity Disorder",
+      "category": "Psychiatric",
+      "description": "Neurodevelopmental disorder characterized by persistent inattention, hyperactivity, and impulsivity that impairs functioning across settings; diagnosed by DSM-5 criteria with onset before age 12",
+      "symptoms": "Inattention, distractibility, forgetfulness, difficulty sustaining tasks; hyperactivity with excessive motor activity, fidgeting; impulsivity with interrupting and difficulty waiting; academic and occupational impairment"
+    },
+    {
+      "name": "Acne Vulgaris",
+      "category": "Dermatologic",
+      "description": "Chronic inflammatory disorder of the pilosebaceous unit involving follicular hyperkeratinization, excess sebum production, Cutibacterium acnes colonization, and inflammatory cytokine release",
+      "symptoms": "Comedones, papules, pustules, nodules, and cysts primarily on face, chest, and back; post-inflammatory hyperpigmentation and scarring in severe cases"
+    },
+    {
+      "name": "Ulcerative Colitis",
+      "category": "Gastrointestinal",
+      "description": "Chronic relapsing inflammatory bowel disease with continuous mucosal inflammation confined to the colon, extending proximally from the rectum; distinct from Crohn's disease by depth and distribution",
+      "symptoms": "Bloody diarrhea, rectal urgency, tenesmus, abdominal cramping, weight loss, fatigue; extraintestinal manifestations including arthritis, pyoderma gangrenosum, and primary sclerosing cholangitis"
+    },
+    {
+      "name": "Atopic Dermatitis",
+      "category": "Dermatologic",
+      "description": "Chronic relapsing inflammatory skin disease driven by impaired skin barrier function, Th2 immune dysregulation, and IgE sensitization; most common in children but affects all ages",
+      "symptoms": "Intense pruritus, dry skin, erythematous scaly plaques in flexural areas, lichenification from chronic scratching, secondary bacterial and viral infections, sleep disturbance"
+    }
   ],
   "medicationUses": [
-    { "medicationId": 1, "conditionId": 1, "reason": "First-line treatment for streptococcal pharyngitis", "effectivenessRating": 9 },
-    { "medicationId": 1, "conditionId": 2, "reason": "Effective against common UTI pathogens", "effectivenessRating": 8 },
-    { "medicationId": 1, "conditionId": 48, "reason": "Oral antibiotic for mild streptococcal cellulitis", "effectivenessRating": 7 },
-    { "medicationId": 2, "conditionId": 3, "reason": "Broad-spectrum coverage for community-acquired pneumonia", "effectivenessRating": 8 },
-    { "medicationId": 3, "conditionId": 3, "reason": "Effective for gram-negative pneumonia", "effectivenessRating": 8 },
-    { "medicationId": 4, "conditionId": 4, "reason": "Anti-inflammatory properties benefit acute bronchitis", "effectivenessRating": 7 },
-    { "medicationId": 5, "conditionId": 1, "reason": "Alternative first-generation cephalosporin for strep throat", "effectivenessRating": 8 },
-    { "medicationId": 5, "conditionId": 48, "reason": "First-line oral antibiotic for non-purulent cellulitis", "effectivenessRating": 9 },
-    { "medicationId": 6, "conditionId": 5, "reason": "Reduces gastric acid production for GERD relief", "effectivenessRating": 9 },
-    { "medicationId": 6, "conditionId": 6, "reason": "Promotes ulcer healing and H. pylori eradication", "effectivenessRating": 8 },
-    { "medicationId": 7, "conditionId": 5, "reason": "Alternative H2 blocker for GERD symptom relief", "effectivenessRating": 7 },
-    { "medicationId": 8, "conditionId": 7, "reason": "First-line oral agent for type 2 diabetes", "effectivenessRating": 8 },
-    { "medicationId": 9, "conditionId": 7, "reason": "Long-acting insulin for advanced type 2 diabetes", "effectivenessRating": 9 },
-    { "medicationId": 9, "conditionId": 40, "reason": "Long-acting basal insulin essential for type 1 diabetes management", "effectivenessRating": 9 },
-    { "medicationId": 10, "conditionId": 8, "reason": "ACE inhibitor reduces blood pressure effectively", "effectivenessRating": 8 },
-    { "medicationId": 10, "conditionId": 10, "reason": "ACE inhibitor reduces afterload and improves outcomes in heart failure", "effectivenessRating": 8 },
-    { "medicationId": 11, "conditionId": 8, "reason": "Beta-blocker for hypertension control", "effectivenessRating": 8 },
-    { "medicationId": 11, "conditionId": 10, "reason": "Beta-blocker reduces mortality in stable heart failure", "effectivenessRating": 8 },
-    { "medicationId": 12, "conditionId": 9, "reason": "Reduces LDL cholesterol levels significantly", "effectivenessRating": 9 },
-    { "medicationId": 12, "conditionId": 34, "reason": "Statin reduces recurrent cardiovascular events post-MI", "effectivenessRating": 9 },
-    { "medicationId": 13, "conditionId": 11, "reason": "SSRI for major depressive disorder", "effectivenessRating": 8 },
-    { "medicationId": 13, "conditionId": 12, "reason": "SSRI effective for generalized anxiety disorder", "effectivenessRating": 8 },
-    { "medicationId": 13, "conditionId": 32, "reason": "SSRI improves sleep architecture and mood in insomnia with depression", "effectivenessRating": 7 },
-    { "medicationId": 14, "conditionId": 11, "reason": "Highly selective SSRI with good efficacy and tolerability", "effectivenessRating": 8 },
-    { "medicationId": 14, "conditionId": 13, "reason": "SSRI effective for panic disorder prevention", "effectivenessRating": 8 },
-    { "medicationId": 15, "conditionId": 12, "reason": "Benzodiazepine for acute anxiety relief", "effectivenessRating": 9 },
-    { "medicationId": 15, "conditionId": 13, "reason": "Benzodiazepine for acute panic attack management", "effectivenessRating": 8 },
-    { "medicationId": 16, "conditionId": 14, "reason": "NSAID for acute pain and inflammation relief", "effectivenessRating": 8 },
-    { "medicationId": 17, "conditionId": 14, "reason": "Acetaminophen for moderate acute pain without GI risk", "effectivenessRating": 7 },
-    { "medicationId": 18, "conditionId": 15, "reason": "Long-acting NSAID for chronic pain management", "effectivenessRating": 8 },
-    { "medicationId": 20, "conditionId": 16, "reason": "Non-sedating antihistamine for allergic rhinitis symptoms", "effectivenessRating": 8 },
-    { "medicationId": 20, "conditionId": 17, "reason": "H1 antagonist effective for urticaria treatment", "effectivenessRating": 8 },
-    { "medicationId": 21, "conditionId": 16, "reason": "Once-daily non-sedating antihistamine for rhinitis", "effectivenessRating": 7 },
-    { "medicationId": 23, "conditionId": 18, "reason": "Inhaled corticosteroid for long-term asthma control", "effectivenessRating": 9 },
-    { "medicationId": 24, "conditionId": 18, "reason": "Short-acting rescue inhaler for acute asthma symptoms", "effectivenessRating": 9 },
-    { "medicationId": 25, "conditionId": 18, "reason": "Leukotriene receptor antagonist for asthma and allergic rhinitis", "effectivenessRating": 7 },
-    { "medicationId": 26, "conditionId": 20, "reason": "Corticosteroid for acute rheumatoid arthritis flares", "effectivenessRating": 8 },
-    { "medicationId": 26, "conditionId": 49, "reason": "Corticosteroid reduces mortality in severe COVID-19 pneumonia and ARDS", "effectivenessRating": 8 },
-    { "medicationId": 27, "conditionId": 20, "reason": "Systemic corticosteroid bridge therapy in rheumatoid arthritis", "effectivenessRating": 8 },
-    { "medicationId": 27, "conditionId": 46, "reason": "Corticosteroid for induction of remission in acute Crohn's flares", "effectivenessRating": 7 },
-    { "medicationId": 28, "conditionId": 26, "reason": "Thyroid hormone replacement restores euthyroid state", "effectivenessRating": 9 },
-    { "medicationId": 29, "conditionId": 27, "reason": "PDE5 inhibitor enhances erectile function", "effectivenessRating": 8 },
-    { "medicationId": 30, "conditionId": 28, "reason": "5-alpha reductase inhibitor shrinks prostate and improves urinary flow", "effectivenessRating": 7 },
-    { "medicationId": 31, "conditionId": 20, "reason": "Anchor DMARD for rheumatoid arthritis disease modification", "effectivenessRating": 8 },
-    { "medicationId": 31, "conditionId": 44, "reason": "DMARD for moderate-to-severe plaque psoriasis", "effectivenessRating": 8 },
-    { "medicationId": 32, "conditionId": 20, "reason": "TNF-alpha inhibitor for moderate-to-severe rheumatoid arthritis", "effectivenessRating": 8 },
-    { "medicationId": 32, "conditionId": 44, "reason": "Biologic for moderate-to-severe plaque psoriasis", "effectivenessRating": 8 },
-    { "medicationId": 33, "conditionId": 22, "reason": "Xanthine oxidase inhibitor prevents urate production and gout recurrence", "effectivenessRating": 9 },
-    { "medicationId": 34, "conditionId": 23, "reason": "Sodium channel blocker anticonvulsant for seizure control", "effectivenessRating": 8 },
-    { "medicationId": 35, "conditionId": 23, "reason": "Modern anticonvulsant with broad-spectrum efficacy and good tolerability", "effectivenessRating": 8 },
-    { "medicationId": 36, "conditionId": 25, "reason": "Anticonvulsant effective for diabetic and other neuropathic pain", "effectivenessRating": 8 },
-    { "medicationId": 36, "conditionId": 43, "reason": "Off-label use for fibromyalgia pain via central sensitization modulation", "effectivenessRating": 6 },
-    { "medicationId": 37, "conditionId": 24, "reason": "Serotonin receptor agonist for acute migraine abort", "effectivenessRating": 8 },
-    { "medicationId": 38, "conditionId": 24, "reason": "Beta-blocker for migraine prophylaxis", "effectivenessRating": 7 },
-    { "medicationId": 39, "conditionId": 29, "reason": "Triazole antifungal for oropharyngeal and vulvovaginal candidiasis", "effectivenessRating": 8 },
-    { "medicationId": 39, "conditionId": 45, "reason": "Prophylaxis against cryptococcal and candidal infections in HIV/AIDS", "effectivenessRating": 7 },
-    { "medicationId": 41, "conditionId": 30, "reason": "Nucleoside analog inhibits HSV DNA polymerase", "effectivenessRating": 8 },
-    { "medicationId": 41, "conditionId": 50, "reason": "Antiviral reduces herpes zoster duration and severity", "effectivenessRating": 7 },
-    { "medicationId": 42, "conditionId": 31, "reason": "Neuraminidase inhibitor reduces influenza duration when started within 48 hours", "effectivenessRating": 7 },
-    { "medicationId": 46, "conditionId": 49, "reason": "mRNA vaccine for prevention of SARS-CoV-2 infection and severe disease", "effectivenessRating": 9 },
-    { "medicationId": 48, "conditionId": 34, "reason": "Antiplatelet therapy after myocardial infarction reduces recurrent MI risk", "effectivenessRating": 9 },
-    { "medicationId": 48, "conditionId": 35, "reason": "Antiplatelet agent reduces stroke risk in atrial fibrillation when anticoagulation is contraindicated", "effectivenessRating": 7 },
-    { "medicationId": 49, "conditionId": 9, "reason": "Cholesterol absorption inhibitor reduces LDL when statin monotherapy is insufficient", "effectivenessRating": 7 },
-    { "medicationId": 50, "conditionId": 35, "reason": "Vitamin K antagonist for stroke prevention in atrial fibrillation", "effectivenessRating": 8 },
-    { "medicationId": 50, "conditionId": 37, "reason": "Standard anticoagulation for treatment and secondary prevention of deep vein thrombosis", "effectivenessRating": 8 },
-    { "medicationId": 51, "conditionId": 35, "reason": "Direct factor Xa inhibitor superior to warfarin for stroke prevention in non-valvular atrial fibrillation", "effectivenessRating": 9 },
-    { "medicationId": 51, "conditionId": 37, "reason": "DOAC for acute DVT treatment and prevention of recurrence", "effectivenessRating": 9 },
-    { "medicationId": 52, "conditionId": 8, "reason": "Long-acting calcium channel blocker for blood pressure control", "effectivenessRating": 8 },
-    { "medicationId": 53, "conditionId": 5, "reason": "PPI for acid suppression and symptom relief in GERD", "effectivenessRating": 9 },
-    { "medicationId": 53, "conditionId": 6, "reason": "PPI promotes peptic ulcer healing and prevents recurrence", "effectivenessRating": 8 },
-    { "medicationId": 54, "conditionId": 49, "reason": "5-HT3 antagonist for nausea and vomiting symptom relief in COVID-19", "effectivenessRating": 7 },
-    { "medicationId": 54, "conditionId": 46, "reason": "Antiemetic for nausea management in Crohn's disease flares", "effectivenessRating": 7 },
-    { "medicationId": 55, "conditionId": 7, "reason": "SGLT2 inhibitor for glycemic control with added cardiovascular and renal protection", "effectivenessRating": 9 },
-    { "medicationId": 55, "conditionId": 10, "reason": "Reduces hospitalizations for heart failure in patients with type 2 diabetes", "effectivenessRating": 8 },
-    { "medicationId": 56, "conditionId": 11, "reason": "SNRI with dual mechanism effective for major depressive disorder", "effectivenessRating": 8 },
-    { "medicationId": 56, "conditionId": 12, "reason": "SNRI approved for generalized anxiety disorder", "effectivenessRating": 8 },
-    { "medicationId": 57, "conditionId": 11, "reason": "NDRI antidepressant without sexual side effects or weight gain", "effectivenessRating": 8 },
-    { "medicationId": 58, "conditionId": 38, "reason": "Atypical antipsychotic for acute bipolar mania and bipolar depression", "effectivenessRating": 8 },
-    { "medicationId": 58, "conditionId": 39, "reason": "Atypical antipsychotic targeting positive and negative symptoms of schizophrenia", "effectivenessRating": 8 },
-    { "medicationId": 59, "conditionId": 15, "reason": "Central analgesic for moderate to severe chronic pain", "effectivenessRating": 7 },
-    { "medicationId": 59, "conditionId": 43, "reason": "Analgesic for fibromyalgia pain management via dual opioid and reuptake inhibition", "effectivenessRating": 6 },
-    { "medicationId": 60, "conditionId": 21, "reason": "COX-2 inhibitor for osteoarthritis pain with reduced GI ulceration risk", "effectivenessRating": 8 },
-    { "medicationId": 60, "conditionId": 20, "reason": "Selective NSAID for rheumatoid arthritis pain and inflammation", "effectivenessRating": 7 },
-    { "medicationId": 61, "conditionId": 19, "reason": "Long-acting anticholinergic bronchodilator improves lung function and reduces COPD exacerbations", "effectivenessRating": 9 },
-    { "medicationId": 62, "conditionId": 18, "reason": "LABA for maintenance asthma treatment combined with inhaled corticosteroid", "effectivenessRating": 8 },
-    { "medicationId": 62, "conditionId": 19, "reason": "Long-acting bronchodilator for COPD symptom control and exacerbation reduction", "effectivenessRating": 8 },
-    { "medicationId": 63, "conditionId": 20, "reason": "DMARD for early rheumatoid arthritis and systemic lupus erythematosus", "effectivenessRating": 7 },
-    { "medicationId": 64, "conditionId": 20, "reason": "Biologic TNF-alpha inhibitor for moderate-to-severe rheumatoid arthritis", "effectivenessRating": 9 },
-    { "medicationId": 64, "conditionId": 44, "reason": "TNF-alpha inhibitor for moderate-to-severe plaque psoriasis", "effectivenessRating": 9 },
-    { "medicationId": 64, "conditionId": 46, "reason": "Biologic for induction and maintenance of remission in Crohn's disease", "effectivenessRating": 8 },
-    { "medicationId": 65, "conditionId": 22, "reason": "Anti-inflammatory agent for acute gout flare treatment; low-dose as effective as high-dose with fewer GI effects", "effectivenessRating": 9 },
-    { "medicationId": 66, "conditionId": 23, "reason": "Broad-spectrum anticonvulsant for generalized and partial seizures", "effectivenessRating": 9 },
-    { "medicationId": 66, "conditionId": 38, "reason": "Mood stabilizer for acute mania and maintenance therapy in bipolar disorder", "effectivenessRating": 8 },
-    { "medicationId": 67, "conditionId": 23, "reason": "Anticonvulsant for partial-onset and generalized tonic-clonic seizures", "effectivenessRating": 8 },
-    { "medicationId": 67, "conditionId": 24, "reason": "Proven prophylactic agent for migraine headache prevention", "effectivenessRating": 8 },
-    { "medicationId": 68, "conditionId": 41, "reason": "Cholinesterase inhibitor improves cognition and daily function in Alzheimer's disease", "effectivenessRating": 7 },
-    { "medicationId": 69, "conditionId": 50, "reason": "Prodrug of acyclovir with superior oral bioavailability for herpes zoster treatment", "effectivenessRating": 9 },
-    { "medicationId": 69, "conditionId": 30, "reason": "Valacyclovir for genital herpes suppression and outbreak treatment", "effectivenessRating": 8 },
-    { "medicationId": 70, "conditionId": 3, "reason": "Third-generation cephalosporin for severe community-acquired and hospital-acquired pneumonia", "effectivenessRating": 9 },
-    { "medicationId": 70, "conditionId": 48, "reason": "Parenteral antibiotic for severe or rapidly spreading cellulitis requiring hospitalization", "effectivenessRating": 8 },
-    { "medicationId": 71, "conditionId": 2, "reason": "First-line oral antibiotic for uncomplicated urinary tract infections", "effectivenessRating": 8 },
-    { "medicationId": 71, "conditionId": 45, "reason": "PCP prophylaxis in HIV/AIDS patients with CD4 below 200 cells per microliter", "effectivenessRating": 10 }
+    {
+      "medicationId": 1,
+      "conditionId": 1,
+      "reason": "First-line treatment for streptococcal pharyngitis",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 1,
+      "conditionId": 2,
+      "reason": "Effective against common UTI pathogens",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 1,
+      "conditionId": 48,
+      "reason": "Oral antibiotic for mild streptococcal cellulitis",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 2,
+      "conditionId": 3,
+      "reason": "Broad-spectrum coverage for community-acquired pneumonia",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 3,
+      "conditionId": 3,
+      "reason": "Effective for gram-negative pneumonia",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 4,
+      "conditionId": 4,
+      "reason": "Anti-inflammatory properties benefit acute bronchitis",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 5,
+      "conditionId": 1,
+      "reason": "Alternative first-generation cephalosporin for strep throat",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 5,
+      "conditionId": 48,
+      "reason": "First-line oral antibiotic for non-purulent cellulitis",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 6,
+      "conditionId": 5,
+      "reason": "Reduces gastric acid production for GERD relief",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 6,
+      "conditionId": 6,
+      "reason": "Promotes ulcer healing and H. pylori eradication",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 7,
+      "conditionId": 5,
+      "reason": "Alternative H2 blocker for GERD symptom relief",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 8,
+      "conditionId": 7,
+      "reason": "First-line oral agent for type 2 diabetes",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 9,
+      "conditionId": 7,
+      "reason": "Long-acting insulin for advanced type 2 diabetes",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 9,
+      "conditionId": 40,
+      "reason": "Long-acting basal insulin essential for type 1 diabetes management",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 10,
+      "conditionId": 8,
+      "reason": "ACE inhibitor reduces blood pressure effectively",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 10,
+      "conditionId": 10,
+      "reason": "ACE inhibitor reduces afterload and improves outcomes in heart failure",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 11,
+      "conditionId": 8,
+      "reason": "Beta-blocker for hypertension control",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 11,
+      "conditionId": 10,
+      "reason": "Beta-blocker reduces mortality in stable heart failure",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 12,
+      "conditionId": 9,
+      "reason": "Reduces LDL cholesterol levels significantly",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 12,
+      "conditionId": 34,
+      "reason": "Statin reduces recurrent cardiovascular events post-MI",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 13,
+      "conditionId": 11,
+      "reason": "SSRI for major depressive disorder",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 13,
+      "conditionId": 12,
+      "reason": "SSRI effective for generalized anxiety disorder",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 13,
+      "conditionId": 32,
+      "reason": "SSRI improves sleep architecture and mood in insomnia with depression",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 14,
+      "conditionId": 11,
+      "reason": "Highly selective SSRI with good efficacy and tolerability",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 14,
+      "conditionId": 13,
+      "reason": "SSRI effective for panic disorder prevention",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 15,
+      "conditionId": 12,
+      "reason": "Benzodiazepine for acute anxiety relief",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 15,
+      "conditionId": 13,
+      "reason": "Benzodiazepine for acute panic attack management",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 16,
+      "conditionId": 14,
+      "reason": "NSAID for acute pain and inflammation relief",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 17,
+      "conditionId": 14,
+      "reason": "Acetaminophen for moderate acute pain without GI risk",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 18,
+      "conditionId": 15,
+      "reason": "Long-acting NSAID for chronic pain management",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 20,
+      "conditionId": 16,
+      "reason": "Non-sedating antihistamine for allergic rhinitis symptoms",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 20,
+      "conditionId": 17,
+      "reason": "H1 antagonist effective for urticaria treatment",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 21,
+      "conditionId": 16,
+      "reason": "Once-daily non-sedating antihistamine for rhinitis",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 23,
+      "conditionId": 18,
+      "reason": "Inhaled corticosteroid for long-term asthma control",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 24,
+      "conditionId": 18,
+      "reason": "Short-acting rescue inhaler for acute asthma symptoms",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 25,
+      "conditionId": 18,
+      "reason": "Leukotriene receptor antagonist for asthma and allergic rhinitis",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 26,
+      "conditionId": 20,
+      "reason": "Corticosteroid for acute rheumatoid arthritis flares",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 26,
+      "conditionId": 49,
+      "reason": "Corticosteroid reduces mortality in severe COVID-19 pneumonia and ARDS",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 27,
+      "conditionId": 20,
+      "reason": "Systemic corticosteroid bridge therapy in rheumatoid arthritis",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 27,
+      "conditionId": 46,
+      "reason": "Corticosteroid for induction of remission in acute Crohn's flares",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 28,
+      "conditionId": 26,
+      "reason": "Thyroid hormone replacement restores euthyroid state",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 29,
+      "conditionId": 27,
+      "reason": "PDE5 inhibitor enhances erectile function",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 30,
+      "conditionId": 28,
+      "reason": "5-alpha reductase inhibitor shrinks prostate and improves urinary flow",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 31,
+      "conditionId": 20,
+      "reason": "Anchor DMARD for rheumatoid arthritis disease modification",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 31,
+      "conditionId": 44,
+      "reason": "DMARD for moderate-to-severe plaque psoriasis",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 32,
+      "conditionId": 20,
+      "reason": "TNF-alpha inhibitor for moderate-to-severe rheumatoid arthritis",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 32,
+      "conditionId": 44,
+      "reason": "Biologic for moderate-to-severe plaque psoriasis",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 33,
+      "conditionId": 22,
+      "reason": "Xanthine oxidase inhibitor prevents urate production and gout recurrence",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 34,
+      "conditionId": 23,
+      "reason": "Sodium channel blocker anticonvulsant for seizure control",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 35,
+      "conditionId": 23,
+      "reason": "Modern anticonvulsant with broad-spectrum efficacy and good tolerability",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 36,
+      "conditionId": 25,
+      "reason": "Anticonvulsant effective for diabetic and other neuropathic pain",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 36,
+      "conditionId": 43,
+      "reason": "Off-label use for fibromyalgia pain via central sensitization modulation",
+      "effectivenessRating": 6
+    },
+    {
+      "medicationId": 37,
+      "conditionId": 24,
+      "reason": "Serotonin receptor agonist for acute migraine abort",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 38,
+      "conditionId": 24,
+      "reason": "Beta-blocker for migraine prophylaxis",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 39,
+      "conditionId": 29,
+      "reason": "Triazole antifungal for oropharyngeal and vulvovaginal candidiasis",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 39,
+      "conditionId": 45,
+      "reason": "Prophylaxis against cryptococcal and candidal infections in HIV/AIDS",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 41,
+      "conditionId": 30,
+      "reason": "Nucleoside analog inhibits HSV DNA polymerase",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 41,
+      "conditionId": 50,
+      "reason": "Antiviral reduces herpes zoster duration and severity",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 42,
+      "conditionId": 31,
+      "reason": "Neuraminidase inhibitor reduces influenza duration when started within 48 hours",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 46,
+      "conditionId": 49,
+      "reason": "mRNA vaccine for prevention of SARS-CoV-2 infection and severe disease",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 48,
+      "conditionId": 34,
+      "reason": "Antiplatelet therapy after myocardial infarction reduces recurrent MI risk",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 48,
+      "conditionId": 35,
+      "reason": "Antiplatelet agent reduces stroke risk in atrial fibrillation when anticoagulation is contraindicated",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 49,
+      "conditionId": 9,
+      "reason": "Cholesterol absorption inhibitor reduces LDL when statin monotherapy is insufficient",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 50,
+      "conditionId": 35,
+      "reason": "Vitamin K antagonist for stroke prevention in atrial fibrillation",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 50,
+      "conditionId": 37,
+      "reason": "Standard anticoagulation for treatment and secondary prevention of deep vein thrombosis",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 51,
+      "conditionId": 35,
+      "reason": "Direct factor Xa inhibitor superior to warfarin for stroke prevention in non-valvular atrial fibrillation",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 51,
+      "conditionId": 37,
+      "reason": "DOAC for acute DVT treatment and prevention of recurrence",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 52,
+      "conditionId": 8,
+      "reason": "Long-acting calcium channel blocker for blood pressure control",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 53,
+      "conditionId": 5,
+      "reason": "PPI for acid suppression and symptom relief in GERD",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 53,
+      "conditionId": 6,
+      "reason": "PPI promotes peptic ulcer healing and prevents recurrence",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 54,
+      "conditionId": 49,
+      "reason": "5-HT3 antagonist for nausea and vomiting symptom relief in COVID-19",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 54,
+      "conditionId": 46,
+      "reason": "Antiemetic for nausea management in Crohn's disease flares",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 55,
+      "conditionId": 7,
+      "reason": "SGLT2 inhibitor for glycemic control with added cardiovascular and renal protection",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 55,
+      "conditionId": 10,
+      "reason": "Reduces hospitalizations for heart failure in patients with type 2 diabetes",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 56,
+      "conditionId": 11,
+      "reason": "SNRI with dual mechanism effective for major depressive disorder",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 56,
+      "conditionId": 12,
+      "reason": "SNRI approved for generalized anxiety disorder",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 57,
+      "conditionId": 11,
+      "reason": "NDRI antidepressant without sexual side effects or weight gain",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 58,
+      "conditionId": 38,
+      "reason": "Atypical antipsychotic for acute bipolar mania and bipolar depression",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 58,
+      "conditionId": 39,
+      "reason": "Atypical antipsychotic targeting positive and negative symptoms of schizophrenia",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 59,
+      "conditionId": 15,
+      "reason": "Central analgesic for moderate to severe chronic pain",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 59,
+      "conditionId": 43,
+      "reason": "Analgesic for fibromyalgia pain management via dual opioid and reuptake inhibition",
+      "effectivenessRating": 6
+    },
+    {
+      "medicationId": 60,
+      "conditionId": 21,
+      "reason": "COX-2 inhibitor for osteoarthritis pain with reduced GI ulceration risk",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 60,
+      "conditionId": 20,
+      "reason": "Selective NSAID for rheumatoid arthritis pain and inflammation",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 61,
+      "conditionId": 19,
+      "reason": "Long-acting anticholinergic bronchodilator improves lung function and reduces COPD exacerbations",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 62,
+      "conditionId": 18,
+      "reason": "LABA for maintenance asthma treatment combined with inhaled corticosteroid",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 62,
+      "conditionId": 19,
+      "reason": "Long-acting bronchodilator for COPD symptom control and exacerbation reduction",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 63,
+      "conditionId": 20,
+      "reason": "DMARD for early rheumatoid arthritis and systemic lupus erythematosus",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 64,
+      "conditionId": 20,
+      "reason": "Biologic TNF-alpha inhibitor for moderate-to-severe rheumatoid arthritis",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 64,
+      "conditionId": 44,
+      "reason": "TNF-alpha inhibitor for moderate-to-severe plaque psoriasis",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 64,
+      "conditionId": 46,
+      "reason": "Biologic for induction and maintenance of remission in Crohn's disease",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 65,
+      "conditionId": 22,
+      "reason": "Anti-inflammatory agent for acute gout flare treatment; low-dose as effective as high-dose with fewer GI effects",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 66,
+      "conditionId": 23,
+      "reason": "Broad-spectrum anticonvulsant for generalized and partial seizures",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 66,
+      "conditionId": 38,
+      "reason": "Mood stabilizer for acute mania and maintenance therapy in bipolar disorder",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 67,
+      "conditionId": 23,
+      "reason": "Anticonvulsant for partial-onset and generalized tonic-clonic seizures",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 67,
+      "conditionId": 24,
+      "reason": "Proven prophylactic agent for migraine headache prevention",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 68,
+      "conditionId": 41,
+      "reason": "Cholinesterase inhibitor improves cognition and daily function in Alzheimer's disease",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 69,
+      "conditionId": 50,
+      "reason": "Prodrug of acyclovir with superior oral bioavailability for herpes zoster treatment",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 69,
+      "conditionId": 30,
+      "reason": "Valacyclovir for genital herpes suppression and outbreak treatment",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 70,
+      "conditionId": 3,
+      "reason": "Third-generation cephalosporin for severe community-acquired and hospital-acquired pneumonia",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 70,
+      "conditionId": 48,
+      "reason": "Parenteral antibiotic for severe or rapidly spreading cellulitis requiring hospitalization",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 71,
+      "conditionId": 2,
+      "reason": "First-line oral antibiotic for uncomplicated urinary tract infections",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 71,
+      "conditionId": 45,
+      "reason": "PCP prophylaxis in HIV/AIDS patients with CD4 below 200 cells per microliter",
+      "effectivenessRating": 10
+    },
+    {
+      "medicationId": 72,
+      "conditionId": 23,
+      "reason": "Broad-spectrum anticonvulsant for partial-onset and generalized seizures with favorable tolerability",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 72,
+      "conditionId": 38,
+      "reason": "Maintenance treatment preventing depressive and manic episodes in bipolar I and II disorder",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 73,
+      "conditionId": 11,
+      "reason": "Dual serotonin and norepinephrine reuptake inhibition for major depressive disorder",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 73,
+      "conditionId": 12,
+      "reason": "FDA-approved for generalized anxiety disorder with sustained efficacy in clinical trials",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 73,
+      "conditionId": 25,
+      "reason": "FDA-approved for diabetic peripheral neuropathy; reduces pain via central sensitization modulation",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 73,
+      "conditionId": 43,
+      "reason": "FDA-approved for fibromyalgia; reduces central pain amplification via dual reuptake inhibition",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 74,
+      "conditionId": 38,
+      "reason": "Atypical antipsychotic approved for acute mania and bipolar maintenance as monotherapy or adjunct",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 74,
+      "conditionId": 39,
+      "reason": "Partial dopamine agonist with favorable metabolic profile for schizophrenia positive and negative symptoms",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 74,
+      "conditionId": 11,
+      "reason": "FDA-approved adjunctive treatment for major depressive disorder inadequately controlled by antidepressants",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 75,
+      "conditionId": 38,
+      "reason": "Gold-standard mood stabilizer with strong evidence for reducing manic episodes and suicide risk in bipolar disorder",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 76,
+      "conditionId": 51,
+      "reason": "Dopamine and norepinephrine reuptake inhibitor for core ADHD symptoms of inattention and hyperactivity",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 77,
+      "conditionId": 32,
+      "reason": "GABA-A modulator reduces sleep onset latency and increases total sleep time with lower dependence risk than benzodiazepines",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 78,
+      "conditionId": 10,
+      "reason": "Loop diuretic reduces fluid overload and rapidly improves dyspnea in decompensated heart failure",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 78,
+      "conditionId": 8,
+      "reason": "Volume-depleting diuresis for blood pressure reduction in hypertension",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 79,
+      "conditionId": 10,
+      "reason": "Aldosterone antagonist reduces all-cause mortality and hospitalizations in systolic heart failure",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 79,
+      "conditionId": 8,
+      "reason": "Potassium-sparing adjunct for resistant hypertension with mineralocorticoid excess",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 80,
+      "conditionId": 10,
+      "reason": "Positive inotropy and neurohormonal modulation improves symptoms and reduces hospitalizations in heart failure",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 80,
+      "conditionId": 35,
+      "reason": "Vagally mediated AV node slowing controls ventricular rate in atrial fibrillation",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 81,
+      "conditionId": 9,
+      "reason": "High-intensity statin providing greater LDL reduction than other statins at equivalent doses",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 81,
+      "conditionId": 34,
+      "reason": "High-intensity statin therapy reduces major adverse cardiovascular events post-myocardial infarction",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 82,
+      "conditionId": 8,
+      "reason": "Once-daily ACE inhibitor for hypertension with renal protective effects in diabetic nephropathy",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 82,
+      "conditionId": 10,
+      "reason": "Reduces mortality in post-MI left ventricular dysfunction per landmark AIRE trial",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 83,
+      "conditionId": 28,
+      "reason": "Alpha-1A selective blocker relaxes prostate smooth muscle improving urinary flow in BPH",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 84,
+      "conditionId": 27,
+      "reason": "36-hour duration PDE5 inhibitor for on-demand or daily erectile dysfunction treatment",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 84,
+      "conditionId": 28,
+      "reason": "Once-daily low-dose tadalafil approved for BPH lower urinary tract symptom relief",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 85,
+      "conditionId": 52,
+      "reason": "Dramatically reduces sebum production and normalizes follicular keratinization for severe nodulocystic acne; highest cure rate of any acne treatment",
+      "effectivenessRating": 10
+    },
+    {
+      "medicationId": 86,
+      "conditionId": 44,
+      "reason": "Topical calcineurin inhibitor for plaque psoriasis as steroid-sparing agent in sensitive areas",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 86,
+      "conditionId": 54,
+      "reason": "Topical and systemic calcineurin inhibitor for moderate-to-severe atopic dermatitis refractory to steroids",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 87,
+      "conditionId": 53,
+      "reason": "Topical aminosalicylate for induction and maintenance of remission in mild-to-moderate ulcerative colitis",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 88,
+      "conditionId": 18,
+      "reason": "Inhaled corticosteroid with high topical potency and low systemic bioavailability for persistent asthma",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 88,
+      "conditionId": 46,
+      "reason": "Oral budesonide for induction of remission in mild-to-moderate Crohn's disease with minimal systemic effects",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 88,
+      "conditionId": 53,
+      "reason": "Oral budesonide MMX for induction of remission in mild-to-moderate ulcerative colitis",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 89,
+      "conditionId": 6,
+      "reason": "Essential component of H. pylori triple eradication therapy for peptic ulcer disease healing and prevention",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 89,
+      "conditionId": 46,
+      "reason": "Antibiotic for perianal Crohn's disease and secondary bacterial complications of IBD",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 90,
+      "conditionId": 36,
+      "reason": "Lincosamide antibiotic active against gram-positive skin pathogens including community-acquired MRSA",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 90,
+      "conditionId": 48,
+      "reason": "Oral option for purulent cellulitis caused by MRSA and streptococcal species",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 91,
+      "conditionId": 3,
+      "reason": "Respiratory fluoroquinolone with excellent atypical and drug-resistant pathogen coverage for community-acquired pneumonia",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 91,
+      "conditionId": 2,
+      "reason": "Broad-spectrum fluoroquinolone for complicated urinary tract infections and pyelonephritis",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 92,
+      "conditionId": 11,
+      "reason": "Noradrenergic and specific serotonergic antidepressant with unique dual mechanism for major depressive disorder",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 92,
+      "conditionId": 32,
+      "reason": "Potent H1 antihistamine activity promotes sleep onset; beneficial for depression comorbid with insomnia",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 93,
+      "conditionId": 39,
+      "reason": "D2 and 5-HT2A antagonist for positive and negative symptoms of schizophrenia",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 93,
+      "conditionId": 38,
+      "reason": "Antipsychotic for acute bipolar mania and maintenance treatment of bipolar disorder",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 94,
+      "conditionId": 51,
+      "reason": "Mixed amphetamine salts with highest effect size for ADHD symptoms of inattention, hyperactivity, and impulsivity",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 95,
+      "conditionId": 23,
+      "reason": "Sodium channel blocker anticonvulsant for focal and secondary generalized tonic-clonic seizures",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 95,
+      "conditionId": 38,
+      "reason": "Mood stabilizer for acute mania and bipolar maintenance; alternative to lithium with good evidence base",
+      "effectivenessRating": 7
+    },
+    {
+      "medicationId": 96,
+      "conditionId": 52,
+      "reason": "Topical retinoid normalizing follicular epithelium and reducing comedone formation for mild-to-moderate acne",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 97,
+      "conditionId": 10,
+      "reason": "Highly cardioselective beta-1 blocker with proven mortality reduction in systolic heart failure per CIBIS-II trial",
+      "effectivenessRating": 9
+    },
+    {
+      "medicationId": 97,
+      "conditionId": 8,
+      "reason": "Once-daily cardioselective beta-blocker for hypertension with minimal bronchospasm risk",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 98,
+      "conditionId": 18,
+      "reason": "Inhaled corticosteroid with broad anti-inflammatory airway activity for persistent asthma control",
+      "effectivenessRating": 8
+    },
+    {
+      "medicationId": 98,
+      "conditionId": 19,
+      "reason": "Inhaled corticosteroid reduces exacerbation frequency in COPD patients with eosinophilic inflammation",
+      "effectivenessRating": 7
+    }
   ],
   "researchLinks": [
-    { "sourceType": "paper", "title": "Amoxicillin vs Cephalosporins for Streptococcal Pharyngitis", "url": "https://pubmed.ncbi.nlm.nih.gov/15555946", "year": 2004, "medicationId": 1, "conditionId": 1 },
-    { "sourceType": "case_study", "title": "Complicated UTI Management with Fluoroquinolones", "url": "https://pubmed.ncbi.nlm.nih.gov/19233393", "year": 2008, "medicationId": 3, "conditionId": 2 },
-    { "sourceType": "paper", "title": "Macrolide Antibiotics in Community-Acquired Pneumonia", "url": "https://pubmed.ncbi.nlm.nih.gov/10593550", "year": 2000, "medicationId": 2, "conditionId": 3 },
-    { "sourceType": "paper", "title": "PPI Therapy for GERD: Long-term Outcomes", "url": "https://pubmed.ncbi.nlm.nih.gov/17313528", "year": 2007, "medicationId": 6, "conditionId": 5 },
-    { "sourceType": "case_study", "title": "Metformin Efficacy in Type 2 Diabetes", "url": "https://pubmed.ncbi.nlm.nih.gov/12039666", "year": 2002, "medicationId": 8, "conditionId": 7 },
-    { "sourceType": "paper", "title": "ACE Inhibitors in Hypertension Management", "url": "https://pubmed.ncbi.nlm.nih.gov/15289874", "year": 2004, "medicationId": 10, "conditionId": 8 },
-    { "sourceType": "paper", "title": "Statins: Efficacy and Safety in Hyperlipidemia", "url": "https://pubmed.ncbi.nlm.nih.gov/15197168", "year": 2004, "medicationId": 12, "conditionId": 9 },
-    { "sourceType": "paper", "title": "SSRIs in Major Depressive Disorder: Comparative Analysis", "url": "https://pubmed.ncbi.nlm.nih.gov/16155764", "year": 2005, "medicationId": 13, "conditionId": 11 },
-    { "sourceType": "case_study", "title": "Benzodiazepine Use in Generalized Anxiety Disorder", "url": "https://pubmed.ncbi.nlm.nih.gov/11910566", "year": 2002, "medicationId": 15, "conditionId": 12 },
-    { "sourceType": "paper", "title": "NSAIDs vs Acetaminophen for Acute Pain", "url": "https://pubmed.ncbi.nlm.nih.gov/18496328", "year": 2008, "medicationId": 16, "conditionId": 14 },
-    { "sourceType": "paper", "title": "H1 Antagonists in Allergic Rhinitis", "url": "https://pubmed.ncbi.nlm.nih.gov/18549555", "year": 2008, "medicationId": 20, "conditionId": 16 },
-    { "sourceType": "case_study", "title": "Inhaled Corticosteroids in Asthma Control", "url": "https://pubmed.ncbi.nlm.nih.gov/17327318", "year": 2007, "medicationId": 23, "conditionId": 18 },
-    { "sourceType": "paper", "title": "TNF Inhibitors in Rheumatoid Arthritis", "url": "https://pubmed.ncbi.nlm.nih.gov/14500822", "year": 2003, "medicationId": 31, "conditionId": 20 },
-    { "sourceType": "paper", "title": "Levothyroxine Replacement in Hypothyroidism", "url": "https://pubmed.ncbi.nlm.nih.gov/12915741", "year": 2003, "medicationId": 28, "conditionId": 26 },
-    { "sourceType": "case_study", "title": "Sildenafil Efficacy in Erectile Dysfunction", "url": "https://pubmed.ncbi.nlm.nih.gov/9840793", "year": 1998, "medicationId": 29, "conditionId": 27 },
-    { "sourceType": "paper", "title": "Allopurinol in Gout Prevention and Management", "url": "https://pubmed.ncbi.nlm.nih.gov/16434907", "year": 2006, "medicationId": 33, "conditionId": 22 },
-    { "sourceType": "paper", "title": "Warfarin versus Aspirin for Prevention of Thromboembolism in Atrial Fibrillation: Stroke Prevention in Atrial Fibrillation II Study", "url": "https://pubmed.ncbi.nlm.nih.gov/7907677", "year": 1994, "medicationId": 50, "conditionId": 35 },
-    { "sourceType": "paper", "title": "Apixaban versus Warfarin in Patients with Atrial Fibrillation (ARISTOTLE Trial)", "url": "https://pubmed.ncbi.nlm.nih.gov/21870978", "year": 2011, "medicationId": 51, "conditionId": 35 },
-    { "sourceType": "paper", "title": "A Randomized, Placebo-Controlled Trial of Amlodipine in Hypertension", "url": "https://pubmed.ncbi.nlm.nih.gov/15343191", "year": 2004, "medicationId": 52, "conditionId": 8 },
-    { "sourceType": "paper", "title": "Intravenous Pantoprazole as Initial Treatment in Patients with GERD and Erosive Esophagitis", "url": "https://pubmed.ncbi.nlm.nih.gov/16927137", "year": 2006, "medicationId": 53, "conditionId": 5 },
-    { "sourceType": "paper", "title": "Ondansetron for Nausea and Vomiting Associated with Moderately Emetogenic Cancer Chemotherapy", "url": "https://pubmed.ncbi.nlm.nih.gov/8750400", "year": 1996, "medicationId": 54, "conditionId": 46 },
-    { "sourceType": "paper", "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes (EMPA-REG OUTCOME)", "url": "https://pubmed.ncbi.nlm.nih.gov/26378978", "year": 2015, "medicationId": 55, "conditionId": 7 },
-    { "sourceType": "paper", "title": "A Randomized, Placebo-Controlled, Dose-Response Trial of Venlafaxine in the Treatment of Major Depression", "url": "https://pubmed.ncbi.nlm.nih.gov/9541154", "year": 1998, "medicationId": 56, "conditionId": 11 },
-    { "sourceType": "paper", "title": "Extended-Release Bupropion for Major Depressive Disorder with Reduced Energy, Pleasure, and Interest", "url": "https://pubmed.ncbi.nlm.nih.gov/16848645", "year": 2006, "medicationId": 57, "conditionId": 11 },
-    { "sourceType": "paper", "title": "A Randomized, Double-Blind, Placebo-Controlled Trial of Quetiapine in Bipolar I and II Depression (BOLDER I)", "url": "https://pubmed.ncbi.nlm.nih.gov/15994719", "year": 2005, "medicationId": 58, "conditionId": 38 },
-    { "sourceType": "paper", "title": "Efficacy and Safety of Extended-Release Tramadol in Chronic Pain: Randomized Trial in Osteoarthritis", "url": "https://pubmed.ncbi.nlm.nih.gov/15223085", "year": 2004, "medicationId": 59, "conditionId": 15 },
-    { "sourceType": "paper", "title": "Gastrointestinal Toxicity with Celecoxib vs NSAIDs for Osteoarthritis and Rheumatoid Arthritis: The CLASS Study", "url": "https://pubmed.ncbi.nlm.nih.gov/10979111", "year": 2000, "medicationId": 60, "conditionId": 21 },
-    { "sourceType": "paper", "title": "A 4-Year Trial of Tiotropium in Chronic Obstructive Pulmonary Disease (UPLIFT)", "url": "https://pubmed.ncbi.nlm.nih.gov/18836213", "year": 2008, "medicationId": 61, "conditionId": 19 },
-    { "sourceType": "paper", "title": "Inhaled Salmeterol: A Review of Its Efficacy in Chronic Obstructive Pulmonary Disease", "url": "https://pubmed.ncbi.nlm.nih.gov/11419918", "year": 2001, "medicationId": 62, "conditionId": 19 },
-    { "sourceType": "paper", "title": "A Randomized Trial of Hydroxychloroquine in Early Rheumatoid Arthritis: The HERA Study", "url": "https://pubmed.ncbi.nlm.nih.gov/7847432", "year": 1995, "medicationId": 63, "conditionId": 20 },
-    { "sourceType": "paper", "title": "Adalimumab for Rheumatoid Arthritis in Patients on Methotrexate: The ARMADA Trial", "url": "https://pubmed.ncbi.nlm.nih.gov/12528101", "year": 2003, "medicationId": 64, "conditionId": 20 },
-    { "sourceType": "paper", "title": "High versus Low Dosing of Oral Colchicine for Early Acute Gout Flare: First Multicenter RCT", "url": "https://pubmed.ncbi.nlm.nih.gov/20131255", "year": 2010, "medicationId": 65, "conditionId": 22 },
-    { "sourceType": "case_study", "title": "Valproate Prophylaxis in a Prospective Clinical Trial of Refractory Bipolar Disorder", "url": "https://pubmed.ncbi.nlm.nih.gov/9326833", "year": 1997, "medicationId": 66, "conditionId": 38 },
-    { "sourceType": "paper", "title": "Topiramate for Migraine Prevention: A Randomized Controlled Trial", "url": "https://pubmed.ncbi.nlm.nih.gov/14982912", "year": 2004, "medicationId": 67, "conditionId": 24 },
-    { "sourceType": "paper", "title": "Efficacy and Safety of Donepezil in Patients with Alzheimer's Disease: US Multicentre, Randomized, Double-Blind, Placebo-Controlled Trial", "url": "https://pubmed.ncbi.nlm.nih.gov/8915035", "year": 1996, "medicationId": 68, "conditionId": 41 },
-    { "sourceType": "case_study", "title": "Antiviral Therapy for Herpes Zoster: Randomized Controlled Trial of Valacyclovir and Famciclovir in Immunocompetent Patients", "url": "https://pubmed.ncbi.nlm.nih.gov/11031393", "year": 2000, "medicationId": 69, "conditionId": 50 },
-    { "sourceType": "paper", "title": "Prospective Comparative Trial of Ceftriaxone versus Conventional Therapy for Bacterial Meningitis and Severe Pneumonia", "url": "https://pubmed.ncbi.nlm.nih.gov/3895175", "year": 1985, "medicationId": 70, "conditionId": 3 },
-    { "sourceType": "paper", "title": "Randomized Comparison of Single-Dose vs Three-Day and Ten-Day Trimethoprim-Sulfamethoxazole for Acute Cystitis in Women", "url": "https://pubmed.ncbi.nlm.nih.gov/6396834", "year": 1984, "medicationId": 71, "conditionId": 2 }
+    {
+      "sourceType": "paper",
+      "title": "Amoxicillin vs Cephalosporins for Streptococcal Pharyngitis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15555946",
+      "year": 2004,
+      "medicationId": 1,
+      "conditionId": 1
+    },
+    {
+      "sourceType": "case_study",
+      "title": "Complicated UTI Management with Fluoroquinolones",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19233393",
+      "year": 2008,
+      "medicationId": 3,
+      "conditionId": 2
+    },
+    {
+      "sourceType": "paper",
+      "title": "Macrolide Antibiotics in Community-Acquired Pneumonia",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10593550",
+      "year": 2000,
+      "medicationId": 2,
+      "conditionId": 3
+    },
+    {
+      "sourceType": "paper",
+      "title": "PPI Therapy for GERD: Long-term Outcomes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17313528",
+      "year": 2007,
+      "medicationId": 6,
+      "conditionId": 5
+    },
+    {
+      "sourceType": "case_study",
+      "title": "Metformin Efficacy in Type 2 Diabetes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12039666",
+      "year": 2002,
+      "medicationId": 8,
+      "conditionId": 7
+    },
+    {
+      "sourceType": "paper",
+      "title": "ACE Inhibitors in Hypertension Management",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15289874",
+      "year": 2004,
+      "medicationId": 10,
+      "conditionId": 8
+    },
+    {
+      "sourceType": "paper",
+      "title": "Statins: Efficacy and Safety in Hyperlipidemia",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15197168",
+      "year": 2004,
+      "medicationId": 12,
+      "conditionId": 9
+    },
+    {
+      "sourceType": "paper",
+      "title": "SSRIs in Major Depressive Disorder: Comparative Analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16155764",
+      "year": 2005,
+      "medicationId": 13,
+      "conditionId": 11
+    },
+    {
+      "sourceType": "case_study",
+      "title": "Benzodiazepine Use in Generalized Anxiety Disorder",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11910566",
+      "year": 2002,
+      "medicationId": 15,
+      "conditionId": 12
+    },
+    {
+      "sourceType": "paper",
+      "title": "NSAIDs vs Acetaminophen for Acute Pain",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18496328",
+      "year": 2008,
+      "medicationId": 16,
+      "conditionId": 14
+    },
+    {
+      "sourceType": "paper",
+      "title": "H1 Antagonists in Allergic Rhinitis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18549555",
+      "year": 2008,
+      "medicationId": 20,
+      "conditionId": 16
+    },
+    {
+      "sourceType": "case_study",
+      "title": "Inhaled Corticosteroids in Asthma Control",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17327318",
+      "year": 2007,
+      "medicationId": 23,
+      "conditionId": 18
+    },
+    {
+      "sourceType": "paper",
+      "title": "TNF Inhibitors in Rheumatoid Arthritis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14500822",
+      "year": 2003,
+      "medicationId": 31,
+      "conditionId": 20
+    },
+    {
+      "sourceType": "paper",
+      "title": "Levothyroxine Replacement in Hypothyroidism",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12915741",
+      "year": 2003,
+      "medicationId": 28,
+      "conditionId": 26
+    },
+    {
+      "sourceType": "case_study",
+      "title": "Sildenafil Efficacy in Erectile Dysfunction",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9840793",
+      "year": 1998,
+      "medicationId": 29,
+      "conditionId": 27
+    },
+    {
+      "sourceType": "paper",
+      "title": "Allopurinol in Gout Prevention and Management",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16434907",
+      "year": 2006,
+      "medicationId": 33,
+      "conditionId": 22
+    },
+    {
+      "sourceType": "paper",
+      "title": "Warfarin versus Aspirin for Prevention of Thromboembolism in Atrial Fibrillation: Stroke Prevention in Atrial Fibrillation II Study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7907677",
+      "year": 1994,
+      "medicationId": 50,
+      "conditionId": 35
+    },
+    {
+      "sourceType": "paper",
+      "title": "Apixaban versus Warfarin in Patients with Atrial Fibrillation (ARISTOTLE Trial)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21870978",
+      "year": 2011,
+      "medicationId": 51,
+      "conditionId": 35
+    },
+    {
+      "sourceType": "paper",
+      "title": "A Randomized, Placebo-Controlled Trial of Amlodipine in Hypertension",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15343191",
+      "year": 2004,
+      "medicationId": 52,
+      "conditionId": 8
+    },
+    {
+      "sourceType": "paper",
+      "title": "Intravenous Pantoprazole as Initial Treatment in Patients with GERD and Erosive Esophagitis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16927137",
+      "year": 2006,
+      "medicationId": 53,
+      "conditionId": 5
+    },
+    {
+      "sourceType": "paper",
+      "title": "Ondansetron for Nausea and Vomiting Associated with Moderately Emetogenic Cancer Chemotherapy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8750400",
+      "year": 1996,
+      "medicationId": 54,
+      "conditionId": 46
+    },
+    {
+      "sourceType": "paper",
+      "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes (EMPA-REG OUTCOME)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26378978",
+      "year": 2015,
+      "medicationId": 55,
+      "conditionId": 7
+    },
+    {
+      "sourceType": "paper",
+      "title": "A Randomized, Placebo-Controlled, Dose-Response Trial of Venlafaxine in the Treatment of Major Depression",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9541154",
+      "year": 1998,
+      "medicationId": 56,
+      "conditionId": 11
+    },
+    {
+      "sourceType": "paper",
+      "title": "Extended-Release Bupropion for Major Depressive Disorder with Reduced Energy, Pleasure, and Interest",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16848645",
+      "year": 2006,
+      "medicationId": 57,
+      "conditionId": 11
+    },
+    {
+      "sourceType": "paper",
+      "title": "A Randomized, Double-Blind, Placebo-Controlled Trial of Quetiapine in Bipolar I and II Depression (BOLDER I)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15994719",
+      "year": 2005,
+      "medicationId": 58,
+      "conditionId": 38
+    },
+    {
+      "sourceType": "paper",
+      "title": "Efficacy and Safety of Extended-Release Tramadol in Chronic Pain: Randomized Trial in Osteoarthritis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15223085",
+      "year": 2004,
+      "medicationId": 59,
+      "conditionId": 15
+    },
+    {
+      "sourceType": "paper",
+      "title": "Gastrointestinal Toxicity with Celecoxib vs NSAIDs for Osteoarthritis and Rheumatoid Arthritis: The CLASS Study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10979111",
+      "year": 2000,
+      "medicationId": 60,
+      "conditionId": 21
+    },
+    {
+      "sourceType": "paper",
+      "title": "A 4-Year Trial of Tiotropium in Chronic Obstructive Pulmonary Disease (UPLIFT)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18836213",
+      "year": 2008,
+      "medicationId": 61,
+      "conditionId": 19
+    },
+    {
+      "sourceType": "paper",
+      "title": "Inhaled Salmeterol: A Review of Its Efficacy in Chronic Obstructive Pulmonary Disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11419918",
+      "year": 2001,
+      "medicationId": 62,
+      "conditionId": 19
+    },
+    {
+      "sourceType": "paper",
+      "title": "A Randomized Trial of Hydroxychloroquine in Early Rheumatoid Arthritis: The HERA Study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7847432",
+      "year": 1995,
+      "medicationId": 63,
+      "conditionId": 20
+    },
+    {
+      "sourceType": "paper",
+      "title": "Adalimumab for Rheumatoid Arthritis in Patients on Methotrexate: The ARMADA Trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12528101",
+      "year": 2003,
+      "medicationId": 64,
+      "conditionId": 20
+    },
+    {
+      "sourceType": "paper",
+      "title": "High versus Low Dosing of Oral Colchicine for Early Acute Gout Flare: First Multicenter RCT",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20131255",
+      "year": 2010,
+      "medicationId": 65,
+      "conditionId": 22
+    },
+    {
+      "sourceType": "case_study",
+      "title": "Valproate Prophylaxis in a Prospective Clinical Trial of Refractory Bipolar Disorder",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9326833",
+      "year": 1997,
+      "medicationId": 66,
+      "conditionId": 38
+    },
+    {
+      "sourceType": "paper",
+      "title": "Topiramate for Migraine Prevention: A Randomized Controlled Trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14982912",
+      "year": 2004,
+      "medicationId": 67,
+      "conditionId": 24
+    },
+    {
+      "sourceType": "paper",
+      "title": "Efficacy and Safety of Donepezil in Patients with Alzheimer's Disease: US Multicentre, Randomized, Double-Blind, Placebo-Controlled Trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8915035",
+      "year": 1996,
+      "medicationId": 68,
+      "conditionId": 41
+    },
+    {
+      "sourceType": "case_study",
+      "title": "Antiviral Therapy for Herpes Zoster: Randomized Controlled Trial of Valacyclovir and Famciclovir in Immunocompetent Patients",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11031393",
+      "year": 2000,
+      "medicationId": 69,
+      "conditionId": 50
+    },
+    {
+      "sourceType": "paper",
+      "title": "Prospective Comparative Trial of Ceftriaxone versus Conventional Therapy for Bacterial Meningitis and Severe Pneumonia",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3895175",
+      "year": 1985,
+      "medicationId": 70,
+      "conditionId": 3
+    },
+    {
+      "sourceType": "paper",
+      "title": "Randomized Comparison of Single-Dose vs Three-Day and Ten-Day Trimethoprim-Sulfamethoxazole for Acute Cystitis in Women",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6396834",
+      "year": 1984,
+      "medicationId": 71,
+      "conditionId": 2
+    }
   ]
 }

@@ -3,6 +3,16 @@ import { useNavigate } from 'react-router-dom';
 import SearchBar from '../components/SearchBar';
 import MedicationCard from '../components/MedicationCard';
 import ConditionCard from '../components/ConditionCard';
+import SkeletonCard from '../components/SkeletonCard';
+
+function StatCard({ value, label, color }) {
+  return (
+    <div className="bg-white rounded-xl shadow-sm p-5 border border-gray-100 text-center">
+      <p className={`text-3xl font-bold ${color}`}>{value || '—'}</p>
+      <p className="text-sm text-gray-500 mt-1">{label}</p>
+    </div>
+  );
+}
 
 function Home() {
   const [activeTab, setActiveTab] = useState('medications');
@@ -13,6 +23,7 @@ function Home() {
   const [medCategories, setMedCategories] = useState([]);
   const [condCategories, setCondCategories] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [stats, setStats] = useState({ medications: null, conditions: null });
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -22,84 +33,115 @@ function Home() {
         setMedCategories(data.medicationCategories);
         setCondCategories(data.conditionCategories);
       });
+    Promise.all([
+      fetch('/api/medications?limit=1').then(r => r.json()),
+      fetch('/api/conditions?limit=1').then(r => r.json()),
+    ]).then(([meds, conds]) => {
+      setStats({ medications: meds.total, conditions: conds.total });
+    });
   }, []);
 
   useEffect(() => {
     setLoading(true);
     const params = new URLSearchParams();
     if (search) params.append('search', search);
-    if (category && activeTab === 'medications') params.append('category', category);
-    if (category && activeTab === 'conditions') params.append('category', category);
+    if (category) params.append('category', category);
 
     const endpoint = activeTab === 'medications' ? '/api/medications' : '/api/conditions';
-    fetch(`${endpoint}?${params}`)
+    fetch(`${endpoint}?${params}&limit=100`)
       .then(r => r.json())
       .then(data => {
-        if (activeTab === 'medications') setMedications(data.medications);
-        else setConditions(data.conditions);
+        if (activeTab === 'medications') setMedications(data.medications || []);
+        else setConditions(data.conditions || []);
         setLoading(false);
-      });
+      })
+      .catch(() => setLoading(false));
   }, [search, category, activeTab]);
+
+  const handleTabChange = (tab) => {
+    setActiveTab(tab);
+    setCategory('');
+  };
 
   const displayItems = activeTab === 'medications' ? medications : conditions;
   const categories = activeTab === 'medications' ? medCategories : condCategories;
 
   return (
     <div className="px-4 py-8">
+      <div className="grid grid-cols-3 gap-4 mb-8">
+        <StatCard value={stats.medications} label="Medications" color="text-blue-600" />
+        <StatCard value={stats.conditions} label="Conditions" color="text-emerald-600" />
+        <StatCard value={38} label="Research Links" color="text-violet-600" />
+      </div>
+
       <SearchBar search={search} onSearchChange={setSearch} />
 
-      <div className="mt-8 flex gap-4 flex-wrap">
-        <button
-          onClick={() => setActiveTab('medications')}
-          className={`px-6 py-2 rounded-lg font-semibold transition ${
-            activeTab === 'medications' ? 'bg-blue-600 text-white' : 'bg-white text-gray-700 border border-gray-300'
-          }`}
-        >
-          Medications
-        </button>
-        <button
-          onClick={() => setActiveTab('conditions')}
-          className={`px-6 py-2 rounded-lg font-semibold transition ${
-            activeTab === 'conditions' ? 'bg-blue-600 text-white' : 'bg-white text-gray-700 border border-gray-300'
-          }`}
-        >
-          Conditions
-        </button>
+      <div className="mt-6 border-b border-gray-200 flex gap-1">
+        {['medications', 'conditions'].map(tab => (
+          <button
+            key={tab}
+            onClick={() => handleTabChange(tab)}
+            className={`px-5 py-2.5 text-sm font-semibold capitalize transition border-b-2 -mb-px ${
+              activeTab === tab
+                ? 'border-blue-600 text-blue-600'
+                : 'border-transparent text-gray-500 hover:text-gray-700'
+            }`}
+          >
+            {tab}
+          </button>
+        ))}
       </div>
 
       {categories.length > 0 && (
-        <div className="mt-6">
-          <label className="block text-sm font-medium text-gray-700 mb-2">Filter by Category</label>
-          <select
-            value={category}
-            onChange={(e) => setCategory(e.target.value)}
-            className="w-full md:w-64 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        <div className="mt-4 flex flex-wrap gap-2">
+          <button
+            onClick={() => setCategory('')}
+            className={`px-3 py-1 rounded-full text-sm font-medium transition ${
+              category === '' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+            }`}
           >
-            <option value="">All Categories</option>
-            {categories.map(cat => (
-              <option key={cat} value={cat}>{cat}</option>
-            ))}
-          </select>
+            All
+          </button>
+          {categories.map(cat => (
+            <button
+              key={cat}
+              onClick={() => setCategory(cat === category ? '' : cat)}
+              className={`px-3 py-1 rounded-full text-sm font-medium transition ${
+                category === cat ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+              }`}
+            >
+              {cat}
+            </button>
+          ))}
         </div>
       )}
 
       {loading ? (
-        <div className="text-center py-12">
-          <p className="text-gray-500">Loading...</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+          {Array.from({ length: 6 }).map((_, i) => <SkeletonCard key={i} />)}
         </div>
       ) : displayItems.length === 0 ? (
-        <div className="text-center py-12">
-          <p className="text-gray-500">No results found</p>
+        <div className="text-center py-16">
+          <p className="text-gray-400 text-lg">No results found</p>
+          {(search || category) && (
+            <button
+              onClick={() => { setSearch(''); setCategory(''); }}
+              className="mt-3 text-blue-500 text-sm hover:underline"
+            >
+              Clear filters
+            </button>
+          )}
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
           {displayItems.map(item => (
-            <div key={item.id} onClick={() => navigate(activeTab === 'medications' ? `/medication/${item.id}` : `/condition/${item.id}`)}>
-              {activeTab === 'medications' ? (
-                <MedicationCard medication={item} />
-              ) : (
-                <ConditionCard condition={item} />
-              )}
+            <div
+              key={item.id}
+              onClick={() => navigate(activeTab === 'medications' ? `/medication/${item.id}` : `/condition/${item.id}`)}
+            >
+              {activeTab === 'medications'
+                ? <MedicationCard medication={item} />
+                : <ConditionCard condition={item} />}
             </div>
           ))}
         </div>
