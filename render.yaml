@@ -2,7 +2,7 @@ services:
   - type: web
     name: medication-db
     runtime: node
-    buildCommand: cd client && npm install && npm run build && cd ../server && npm install
+    buildCommand: cd client && npm install && npm run build && cd ../server && npm_config_build_from_source=true npm install
     startCommand: cd server && node server.js
     envVars:
       - key: NODE_ENV
