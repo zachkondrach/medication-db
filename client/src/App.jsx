@@ -16,7 +16,7 @@ function PillIcon() {
 function App() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <header className="bg-gradient-to-r from-blue-700 to-blue-500 text-white shadow-lg sticky top-0 z-20">
+      <header className="bg-gradient-to-r from-blue-950 to-blue-800 text-white shadow-lg sticky top-0 z-20">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center gap-3">
           <PillIcon />
           <div>

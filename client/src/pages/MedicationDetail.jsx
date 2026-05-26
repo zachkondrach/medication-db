@@ -55,6 +55,27 @@ function MedicationDetail() {
           <p className="text-gray-700 mt-5 leading-relaxed">{medication.description}</p>
         </div>
 
+        {(medication.adultDosage || medication.pediatricDosage) && (
+          <div className="bg-white rounded-xl shadow-md p-8 mb-6">
+            <h2 className="text-xl font-bold text-gray-900 mb-5">Dosage Information</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {medication.adultDosage && (
+                <div className="p-4 bg-blue-50 rounded-lg border border-blue-100">
+                  <p className="text-xs font-semibold text-blue-600 uppercase tracking-wide mb-2">Adult Dosage</p>
+                  <p className="text-sm text-gray-700 leading-relaxed">{medication.adultDosage}</p>
+                </div>
+              )}
+              {medication.pediatricDosage && (
+                <div className="p-4 bg-emerald-50 rounded-lg border border-emerald-100">
+                  <p className="text-xs font-semibold text-emerald-600 uppercase tracking-wide mb-2">Pediatric Dosage</p>
+                  <p className="text-sm text-gray-700 leading-relaxed">{medication.pediatricDosage}</p>
+                </div>
+              )}
+            </div>
+            <p className="text-xs text-gray-400 mt-4">Typical dosage ranges only. Always follow prescribing information and individualize therapy.</p>
+          </div>
+        )}
+
         {medication.conditions?.length > 0 && (
           <div className="bg-white rounded-xl shadow-md p-8 mb-6">
             <h2 className="text-xl font-bold text-gray-900 mb-5">Conditions Treated</h2>

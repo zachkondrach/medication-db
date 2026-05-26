@@ -4,589 +4,785 @@
       "name": "Amoxicillin",
       "genericName": "amoxicillin",
       "category": "Antibiotic",
-      "description": "Beta-lactam antibiotic effective against bacterial infections"
+      "description": "Beta-lactam antibiotic effective against bacterial infections",
+      "adultDosage": "500 mg every 8 h or 875 mg every 12 h PO (7–10 days)",
+      "pediatricDosage": "25–45 mg/kg/day PO in 2–3 divided doses"
     },
     {
       "name": "Azithromycin",
       "genericName": "azithromycin",
       "category": "Antibiotic",
-      "description": "Macrolide antibiotic with broad-spectrum activity"
+      "description": "Macrolide antibiotic with broad-spectrum activity",
+      "adultDosage": "500 mg on day 1, then 250 mg once daily on days 2–5",
+      "pediatricDosage": "10 mg/kg on day 1, then 5 mg/kg once daily on days 2–5"
     },
     {
       "name": "Ciprofloxacin",
       "genericName": "ciprofloxacin",
       "category": "Antibiotic",
-      "description": "Fluoroquinolone antibiotic for serious infections"
+      "description": "Fluoroquinolone antibiotic for serious infections",
+      "adultDosage": "250–750 mg every 12 h PO; 200–400 mg every 8–12 h IV",
+      "pediatricDosage": "Not routinely recommended; 10–15 mg/kg every 12 h for complicated UTI (≥1 yr)"
     },
     {
       "name": "Doxycycline",
       "genericName": "doxycycline",
       "category": "Antibiotic",
-      "description": "Tetracycline antibiotic with anti-inflammatory properties"
+      "description": "Tetracycline antibiotic with anti-inflammatory properties",
+      "adultDosage": "100 mg every 12 h PO/IV",
+      "pediatricDosage": "Not for <8 yr; 2.2 mg/kg every 12 h for ≥8 yr"
     },
     {
       "name": "Cefalexin",
       "genericName": "cefalexin",
       "category": "Antibiotic",
-      "description": "First-generation cephalosporin for bacterial infections"
+      "description": "First-generation cephalosporin for bacterial infections",
+      "adultDosage": "250–500 mg every 6 h PO",
+      "pediatricDosage": "25–50 mg/kg/day PO in 4 divided doses"
     },
     {
       "name": "Omeprazole",
       "genericName": "omeprazole",
       "category": "Gastrointestinal",
-      "description": "Proton pump inhibitor for acid reflux and GERD"
+      "description": "Proton pump inhibitor for acid reflux and GERD",
+      "adultDosage": "20–40 mg once daily PO before meal",
+      "pediatricDosage": "0.7–3.3 mg/kg once daily PO (ages 1–16 yr)"
     },
     {
       "name": "Ranitidine",
       "genericName": "ranitidine",
       "category": "Gastrointestinal",
-      "description": "H2 receptor antagonist for heartburn relief"
+      "description": "H2 receptor antagonist for heartburn relief",
+      "adultDosage": "150 mg twice daily or 300 mg once daily PO",
+      "pediatricDosage": "2–4 mg/kg twice daily PO (max 150 mg/dose)"
     },
     {
       "name": "Metformin",
       "genericName": "metformin",
       "category": "Endocrine",
-      "description": "First-line treatment for type 2 diabetes mellitus"
+      "description": "First-line treatment for type 2 diabetes mellitus",
+      "adultDosage": "500–850 mg twice daily PO with meals (max 2550 mg/day)",
+      "pediatricDosage": "500 mg twice daily PO (≥10 yr); max 2000 mg/day"
     },
     {
       "name": "Insulin Glargine",
       "genericName": "insulin glargine",
       "category": "Endocrine",
-      "description": "Long-acting insulin for diabetes management"
+      "description": "Long-acting insulin for diabetes management",
+      "adultDosage": "0.1–0.3 units/kg SC once daily at bedtime; titrate to fasting glucose target",
+      "pediatricDosage": "≥6 yr: 0.1–0.2 units/kg/day SC; similar weight-based initiation"
     },
     {
       "name": "Lisinopril",
       "genericName": "lisinopril",
       "category": "Cardiovascular",
-      "description": "ACE inhibitor for hypertension and heart failure"
+      "description": "ACE inhibitor for hypertension and heart failure",
+      "adultDosage": "10–40 mg once daily PO (start 5–10 mg/day)",
+      "pediatricDosage": "0.1 mg/kg once daily PO (≥6 yr); max 0.6 mg/kg or 40 mg/day"
     },
     {
       "name": "Metoprolol",
       "genericName": "metoprolol",
       "category": "Cardiovascular",
-      "description": "Beta-blocker for hypertension and arrhythmias"
+      "description": "Beta-blocker for hypertension and arrhythmias",
+      "adultDosage": "25–100 mg twice daily (tartrate) or 25–200 mg once daily (succinate XL)",
+      "pediatricDosage": "1–2 mg/kg/day PO in divided doses (≥6 yr)"
     },
     {
       "name": "Atorvastatin",
       "genericName": "atorvastatin",
       "category": "Cardiovascular",
-      "description": "Statin for cholesterol management"
+      "description": "Statin for cholesterol management",
+      "adultDosage": "10–80 mg once daily PO (high-intensity: 40–80 mg)",
+      "pediatricDosage": "10–20 mg once daily PO (10–17 yr, familial hypercholesterolemia)"
     },
     {
       "name": "Sertraline",
       "genericName": "sertraline",
       "category": "Psychiatric",
-      "description": "SSRI antidepressant for depression and anxiety"
+      "description": "SSRI antidepressant for depression and anxiety",
+      "adultDosage": "50–200 mg once daily PO",
+      "pediatricDosage": "25–200 mg once daily PO (OCD ≥6 yr; depression ≥12 yr)"
     },
     {
       "name": "Escitalopram",
       "genericName": "escitalopram",
       "category": "Psychiatric",
-      "description": "SSRI with selective serotonin reuptake inhibition"
+      "description": "SSRI with selective serotonin reuptake inhibition",
+      "adultDosage": "10–20 mg once daily PO",
+      "pediatricDosage": "10 mg once daily PO (12–17 yr for depression)"
     },
     {
       "name": "Lorazepam",
       "genericName": "lorazepam",
       "category": "Psychiatric",
-      "description": "Benzodiazepine for anxiety and insomnia"
+      "description": "Benzodiazepine for anxiety and insomnia",
+      "adultDosage": "0.5–2 mg 2–3 times daily PO; 1–4 mg IV/IM for acute anxiety",
+      "pediatricDosage": "0.05 mg/kg IV for status epilepticus (≥12 yr); not established for chronic use"
     },
     {
       "name": "Ibuprofen",
       "genericName": "ibuprofen",
       "category": "Pain Relief",
-      "description": "NSAID for pain and inflammation relief"
+      "description": "NSAID for pain and inflammation relief",
+      "adultDosage": "200–800 mg every 4–6 h PO (max 3200 mg/day)",
+      "pediatricDosage": "5–10 mg/kg every 6–8 h PO (≥6 months; max 40 mg/kg/day)"
     },
     {
       "name": "Acetaminophen",
       "genericName": "acetaminophen",
       "category": "Pain Relief",
-      "description": "Analgesic and antipyretic for pain and fever"
+      "description": "Analgesic and antipyretic for pain and fever",
+      "adultDosage": "325–650 mg every 4–6 h PO (max 3–4 g/day)",
+      "pediatricDosage": "10–15 mg/kg every 4–6 h PO/PR (max 5 doses/24 h)"
     },
     {
       "name": "Naproxen",
       "genericName": "naproxen",
       "category": "Pain Relief",
-      "description": "Long-acting NSAID for chronic pain management"
+      "description": "Long-acting NSAID for chronic pain management",
+      "adultDosage": "250–500 mg twice daily PO",
+      "pediatricDosage": "5 mg/kg twice daily PO (JIA, ≥2 yr)"
     },
     {
       "name": "Hydrocodone",
       "genericName": "hydrocodone",
       "category": "Pain Relief",
-      "description": "Opioid for moderate to severe pain"
+      "description": "Opioid for moderate to severe pain",
+      "adultDosage": "5–10 mg every 4–6 h PO as needed (combination products)",
+      "pediatricDosage": "Not recommended for patients under 18 yr"
     },
     {
       "name": "Cetirizine",
       "genericName": "cetirizine",
       "category": "Allergy",
-      "description": "Selective H1 receptor antagonist for allergies"
+      "description": "Selective H1 receptor antagonist for allergies",
+      "adultDosage": "5–10 mg once daily PO",
+      "pediatricDosage": "2.5 mg once daily (6–23 months); 2.5–5 mg (2–5 yr); 5–10 mg (≥6 yr)"
     },
     {
       "name": "Loratadine",
       "genericName": "loratadine",
       "category": "Allergy",
-      "description": "Non-sedating antihistamine for allergic reactions"
+      "description": "Non-sedating antihistamine for allergic reactions",
+      "adultDosage": "10 mg once daily PO",
+      "pediatricDosage": "5 mg once daily (2–5 yr); 10 mg once daily (≥6 yr)"
     },
     {
       "name": "Fexofenadine",
       "genericName": "fexofenadine",
       "category": "Allergy",
-      "description": "Long-acting antihistamine for urticaria and allergies"
+      "description": "Long-acting antihistamine for urticaria and allergies",
+      "adultDosage": "180 mg once daily or 60 mg twice daily PO",
+      "pediatricDosage": "30 mg twice daily (2–11 yr); 180 mg once daily (≥12 yr)"
     },
     {
       "name": "Fluticasone",
       "genericName": "fluticasone",
       "category": "Respiratory",
-      "description": "Inhaled corticosteroid for asthma control"
+      "description": "Inhaled corticosteroid for asthma control",
+      "adultDosage": "88–440 mcg inhaled twice daily (MDI); low-dose: 88–264 mcg/day",
+      "pediatricDosage": "44–88 mcg inhaled twice daily (4–11 yr); up to 176 mcg twice daily (≥12 yr)"
     },
     {
       "name": "Albuterol",
       "genericName": "albuterol",
       "category": "Respiratory",
-      "description": "Beta-2 agonist for acute asthma symptoms"
+      "description": "Beta-2 agonist for acute asthma symptoms",
+      "adultDosage": "2.5 mg nebulized every 4–8 h; 2 puffs MDI every 4–6 h PRN",
+      "pediatricDosage": "0.1–0.15 mg/kg nebulized every 4–8 h (≥2 yr; min dose 2.5 mg)"
     },
     {
       "name": "Montelukast",
       "genericName": "montelukast",
       "category": "Respiratory",
-      "description": "Leukotriene inhibitor for asthma and allergies"
+      "description": "Leukotriene inhibitor for asthma and allergies",
+      "adultDosage": "10 mg once daily PO (evening)",
+      "pediatricDosage": "4 mg once daily (2–5 yr); 5 mg (6–14 yr); 10 mg (≥15 yr)"
     },
     {
       "name": "Methylprednisolone",
       "genericName": "methylprednisolone",
       "category": "Immunosuppressant",
-      "description": "Corticosteroid for inflammation and immune response"
+      "description": "Corticosteroid for inflammation and immune response",
+      "adultDosage": "4–48 mg/day PO in divided doses; 125 mg–1 g IV for pulse therapy",
+      "pediatricDosage": "0.5–1.7 mg/kg/day PO/IV in divided doses"
     },
     {
       "name": "Prednisone",
       "genericName": "prednisone",
       "category": "Immunosuppressant",
-      "description": "Systemic corticosteroid for various inflammatory conditions"
+      "description": "Systemic corticosteroid for various inflammatory conditions",
+      "adultDosage": "5–60 mg once daily PO (taper after ≥2 weeks)",
+      "pediatricDosage": "0.5–2 mg/kg/day PO (max 40–60 mg/day)"
     },
     {
       "name": "Levothyroxine",
       "genericName": "levothyroxine",
       "category": "Endocrine",
-      "description": "Thyroid hormone replacement for hypothyroidism"
+      "description": "Thyroid hormone replacement for hypothyroidism",
+      "adultDosage": "1.6 mcg/kg once daily PO; start 25–50 mcg in elderly/cardiac patients",
+      "pediatricDosage": "Newborn: 10–15 mcg/kg/day; decreases with age to ~2–3 mcg/kg/day in adolescents"
     },
     {
       "name": "Sildenafil",
       "genericName": "sildenafil",
       "category": "Genitourinary",
-      "description": "Phosphodiesterase inhibitor for erectile dysfunction"
+      "description": "Phosphodiesterase inhibitor for erectile dysfunction",
+      "adultDosage": "25–100 mg PO 30–60 min before intercourse (max once daily)",
+      "pediatricDosage": "Not indicated for ED; pulmonary HTN: 0.5 mg/kg/dose 3 times daily"
     },
     {
       "name": "Finasteride",
       "genericName": "finasteride",
       "category": "Genitourinary",
-      "description": "5-alpha reductase inhibitor for BPH"
+      "description": "5-alpha reductase inhibitor for BPH",
+      "adultDosage": "5 mg once daily PO (BPH); 1 mg once daily (androgenetic alopecia)",
+      "pediatricDosage": "Not indicated in pediatric patients"
     },
     {
       "name": "Methotrexate",
       "genericName": "methotrexate",
       "category": "Rheumatologic",
-      "description": "DMARD for rheumatoid arthritis and autoimmune diseases"
+      "description": "DMARD for rheumatoid arthritis and autoimmune diseases",
+      "adultDosage": "7.5–25 mg PO/SC once weekly (RA); take folic acid 1 mg daily",
+      "pediatricDosage": "10–15 mg/m² once weekly SC/PO (JIA, ≥2 yr)"
     },
     {
       "name": "Etanercept",
       "genericName": "etanercept",
       "category": "Rheumatologic",
-      "description": "TNF-alpha inhibitor for rheumatoid arthritis"
+      "description": "TNF-alpha inhibitor for rheumatoid arthritis",
+      "adultDosage": "50 mg SC once weekly",
+      "pediatricDosage": "0.8 mg/kg SC once weekly (4–17 yr); max 50 mg/week"
     },
     {
       "name": "Allopurinol",
       "genericName": "allopurinol",
       "category": "Rheumatologic",
-      "description": "Xanthine oxidase inhibitor for gout prevention"
+      "description": "Xanthine oxidase inhibitor for gout prevention",
+      "adultDosage": "100–300 mg once daily PO (max 800 mg/day); start low and titrate to uric acid target",
+      "pediatricDosage": "10 mg/kg/day PO in 2–3 divided doses (max 600 mg/day)"
     },
     {
       "name": "Phenytoin",
       "genericName": "phenytoin",
       "category": "Neurologic",
-      "description": "Anticonvulsant for seizure control"
+      "description": "Anticonvulsant for seizure control",
+      "adultDosage": "100 mg 3 times daily PO; target serum level 10–20 mcg/mL",
+      "pediatricDosage": "5 mg/kg/day PO in 2–3 divided doses; target level 10–20 mcg/mL"
     },
     {
       "name": "Levetiracetam",
       "genericName": "levetiracetam",
       "category": "Neurologic",
-      "description": "Anticonvulsant with novel mechanism"
+      "description": "Anticonvulsant with novel mechanism",
+      "adultDosage": "500–1500 mg twice daily PO/IV",
+      "pediatricDosage": "10 mg/kg twice daily PO (≥1 month); titrate to 20–30 mg/kg twice daily"
     },
     {
       "name": "Gabapentin",
       "genericName": "gabapentin",
       "category": "Neurologic",
-      "description": "Anticonvulsant for neuropathic pain"
+      "description": "Anticonvulsant for neuropathic pain",
+      "adultDosage": "300–1200 mg 3 times daily PO (max 3600 mg/day for epilepsy)",
+      "pediatricDosage": "10–15 mg/kg/day PO in 3 divided doses (3–12 yr)"
     },
     {
       "name": "Sumatriptan",
       "genericName": "sumatriptan",
       "category": "Neurologic",
-      "description": "Triptan for acute migraine treatment"
+      "description": "Triptan for acute migraine treatment",
+      "adultDosage": "50–100 mg PO (may repeat once after 2 h; max 200 mg/day); 6 mg SC; 5–20 mg intranasal",
+      "pediatricDosage": "Not FDA-approved under 18; used off-label in adolescents per guidelines"
     },
     {
       "name": "Propranolol",
       "genericName": "propranolol",
       "category": "Neurologic",
-      "description": "Beta-blocker for migraine prophylaxis"
+      "description": "Beta-blocker for migraine prophylaxis",
+      "adultDosage": "40–160 mg twice daily PO; 1–3 mg IV slow push for arrhythmia",
+      "pediatricDosage": "1–2 mg/kg/day PO in 2–3 divided doses (migraine prophylaxis)"
     },
     {
       "name": "Fluconazole",
       "genericName": "fluconazole",
       "category": "Antifungal",
-      "description": "Triazole antifungal for candida infections"
+      "description": "Triazole antifungal for candida infections",
+      "adultDosage": "150 mg single dose (vaginal candidiasis); 200–400 mg/day (systemic infections)",
+      "pediatricDosage": "6 mg/kg loading dose, then 3 mg/kg once daily PO/IV"
     },
     {
       "name": "Ketoconazole",
       "genericName": "ketoconazole",
       "category": "Antifungal",
-      "description": "Broad-spectrum imidazole antifungal"
+      "description": "Broad-spectrum imidazole antifungal",
+      "adultDosage": "200–400 mg once daily PO; topical: apply once or twice daily",
+      "pediatricDosage": "3.3–6.6 mg/kg once daily PO (≥2 yr)"
     },
     {
       "name": "Acyclovir",
       "genericName": "acyclovir",
       "category": "Antiviral",
-      "description": "Nucleoside analog for herpes simplex virus"
+      "description": "Nucleoside analog for herpes simplex virus",
+      "adultDosage": "200–800 mg 5 times daily PO; 5–10 mg/kg every 8 h IV (severe)",
+      "pediatricDosage": "Neonatal HSV: 20 mg/kg IV every 8 h; ≥3 months: 15–30 mg/kg/day IV"
     },
     {
       "name": "Oseltamivir",
       "genericName": "oseltamivir",
       "category": "Antiviral",
-      "description": "Neuraminidase inhibitor for influenza"
+      "description": "Neuraminidase inhibitor for influenza",
+      "adultDosage": "75 mg twice daily PO for 5 days (treatment); 75 mg once daily (prophylaxis)",
+      "pediatricDosage": "≥1 yr, weight-based: 30 mg (≤15 kg) to 75 mg (>40 kg) twice daily for 5 days"
     },
     {
       "name": "Ribavirin",
       "genericName": "ribavirin",
       "category": "Antiviral",
-      "description": "Nucleoside analog for viral infections"
+      "description": "Nucleoside analog for viral infections",
+      "adultDosage": "600 mg twice daily PO (with peginterferon for HCV); dose varies by indication",
+      "pediatricDosage": "15 mg/kg/day PO in 2 divided doses (≥3 yr for HCV)"
     },
     {
       "name": "Tetanus Toxoid",
       "genericName": "tetanus toxoid",
       "category": "Vaccine",
-      "description": "Immunization against tetanus"
+      "description": "Immunization against tetanus",
+      "adultDosage": "0.5 mL IM single dose; booster every 10 years",
+      "pediatricDosage": "Part of DTaP series at 2, 4, 6, 15–18 months and 4–6 yr; Tdap booster at 11–12 yr"
     },
     {
       "name": "Influenza Vaccine",
       "genericName": "influenza vaccine",
       "category": "Vaccine",
-      "description": "Annual vaccination against influenza"
+      "description": "Annual vaccination against influenza",
+      "adultDosage": "0.5 mL IM once annually",
+      "pediatricDosage": "6 months–8 yr (first-time): 2 doses ≥4 weeks apart then annually; 0.5 mL IM or LAIV nasal spray"
     },
     {
       "name": "COVID-19 Vaccine",
       "genericName": "covid-19 vaccine",
       "category": "Vaccine",
-      "description": "Immunization against SARS-CoV-2"
+      "description": "Immunization against SARS-CoV-2",
+      "adultDosage": "Per approved schedule: 2 primary doses (21–28 days apart) + updated annual booster",
+      "pediatricDosage": "Age-appropriate schedule per current CDC/manufacturer guidance (≥6 months for some vaccines)"
     },
     {
       "name": "Diazepam",
       "genericName": "diazepam",
       "category": "Psychiatric",
-      "description": "Benzodiazepine for anxiety and muscle relaxation"
+      "description": "Benzodiazepine for anxiety and muscle relaxation",
+      "adultDosage": "2–10 mg 2–4 times daily PO; 5–10 mg IV for acute alcohol withdrawal",
+      "pediatricDosage": "0.12–0.8 mg/kg/day PO in 3–4 divided doses (≥6 months); 0.2–0.5 mg/kg IV/PR for seizures"
     },
     {
       "name": "Clopidogrel",
       "genericName": "clopidogrel",
       "category": "Cardiovascular",
-      "description": "Antiplatelet agent for cardiovascular events"
+      "description": "Antiplatelet agent for cardiovascular events",
+      "adultDosage": "75 mg once daily PO (maintenance); 300–600 mg loading dose",
+      "pediatricDosage": "Not established for cardiovascular use in children"
     },
     {
       "name": "Ezetimibe",
       "genericName": "ezetimibe",
       "category": "Cardiovascular",
-      "description": "Cholesterol absorption inhibitor"
+      "description": "Cholesterol absorption inhibitor",
+      "adultDosage": "10 mg once daily PO",
+      "pediatricDosage": "10 mg once daily PO (≥10 yr for familial hypercholesterolemia)"
     },
     {
       "name": "Warfarin",
       "genericName": "warfarin sodium",
       "category": "Anticoagulant",
-      "description": "Vitamin K antagonist for prevention and treatment of thromboembolic disorders; requires INR monitoring"
+      "description": "Vitamin K antagonist for prevention and treatment of thromboembolic disorders; requires INR monitoring",
+      "adultDosage": "Individualized; typical 2–10 mg/day PO titrated to INR target (usually 2–3)",
+      "pediatricDosage": "0.1 mg/kg/day PO; titrate to INR target with frequent monitoring"
     },
     {
       "name": "Apixaban",
       "genericName": "apixaban",
       "category": "Anticoagulant",
-      "description": "Direct factor Xa inhibitor for stroke prevention in atrial fibrillation and DVT treatment; no INR monitoring required"
+      "description": "Direct factor Xa inhibitor for stroke prevention in atrial fibrillation and DVT treatment; no INR monitoring required",
+      "adultDosage": "5 mg twice daily PO (AF/VTE prevention); 10 mg twice daily × 7 days then 5 mg twice daily (DVT/PE treatment)",
+      "pediatricDosage": "Not approved for pediatric use"
     },
     {
       "name": "Amlodipine",
       "genericName": "amlodipine besylate",
       "category": "Cardiovascular",
-      "description": "Long-acting dihydropyridine calcium channel blocker for hypertension and stable angina"
+      "description": "Long-acting dihydropyridine calcium channel blocker for hypertension and stable angina",
+      "adultDosage": "5–10 mg once daily PO",
+      "pediatricDosage": "2.5–5 mg once daily PO (6–17 yr for hypertension)"
     },
     {
       "name": "Pantoprazole",
       "genericName": "pantoprazole sodium",
       "category": "Gastrointestinal",
-      "description": "Proton pump inhibitor available in oral and IV forms for GERD, erosive esophagitis, and peptic ulcer disease"
+      "description": "Proton pump inhibitor available in oral and IV forms for GERD, erosive esophagitis, and peptic ulcer disease",
+      "adultDosage": "40 mg once or twice daily PO/IV",
+      "pediatricDosage": "≥5 yr: 20–40 mg once daily PO (approx. 1.2 mg/kg/day)"
     },
     {
       "name": "Ondansetron",
       "genericName": "ondansetron hydrochloride",
       "category": "Gastrointestinal",
-      "description": "Selective 5-HT3 receptor antagonist for nausea and vomiting in chemotherapy, radiation, and postoperative settings"
+      "description": "Selective 5-HT3 receptor antagonist for nausea and vomiting in chemotherapy, radiation, and postoperative settings",
+      "adultDosage": "8 mg PO every 8 h; 32 mg IV single dose (chemo) or 4–8 mg IV every 6 h",
+      "pediatricDosage": "0.1–0.15 mg/kg/dose PO/IV every 6 h (≥2 yr); max 8 mg/dose"
     },
     {
       "name": "Empagliflozin",
       "genericName": "empagliflozin",
       "category": "Endocrine",
-      "description": "SGLT2 inhibitor that reduces blood glucose via glucosuria; demonstrated cardiovascular and renal protective benefits in type 2 diabetes"
+      "description": "SGLT2 inhibitor that reduces blood glucose via glucosuria; demonstrated cardiovascular and renal protective benefits in type 2 diabetes",
+      "adultDosage": "10 mg once daily PO; may increase to 25 mg once daily",
+      "pediatricDosage": "Not approved for pediatric use"
     },
     {
       "name": "Venlafaxine",
       "genericName": "venlafaxine hydrochloride",
       "category": "Psychiatric",
-      "description": "Serotonin-norepinephrine reuptake inhibitor for major depressive disorder, GAD, social anxiety, and panic disorder"
+      "description": "Serotonin-norepinephrine reuptake inhibitor for major depressive disorder, GAD, social anxiety, and panic disorder",
+      "adultDosage": "75–225 mg once daily PO (XR); start 37.5–75 mg and titrate",
+      "pediatricDosage": "Not approved under 18 yr"
     },
     {
       "name": "Bupropion",
       "genericName": "bupropion hydrochloride",
       "category": "Psychiatric",
-      "description": "Norepinephrine-dopamine reuptake inhibitor antidepressant without sexual side effects; also approved for smoking cessation"
+      "description": "Norepinephrine-dopamine reuptake inhibitor antidepressant without sexual side effects; also approved for smoking cessation",
+      "adultDosage": "150–450 mg/day PO (SR: 150 mg twice daily; XL: 150–300 mg once daily; max 450 mg/day)",
+      "pediatricDosage": "Not approved under 18 yr for MDD"
     },
     {
       "name": "Quetiapine",
       "genericName": "quetiapine fumarate",
       "category": "Psychiatric",
-      "description": "Atypical antipsychotic with activity at dopamine, serotonin, histamine, and adrenergic receptors for schizophrenia and bipolar disorder"
+      "description": "Atypical antipsychotic with activity at dopamine, serotonin, histamine, and adrenergic receptors for schizophrenia and bipolar disorder",
+      "adultDosage": "50–800 mg/day PO in divided doses (schizophrenia); 50–400 mg at bedtime (bipolar depression)",
+      "pediatricDosage": "25–800 mg/day PO (≥10 yr for bipolar mania; ≥13 yr for schizophrenia)"
     },
     {
       "name": "Tramadol",
       "genericName": "tramadol hydrochloride",
       "category": "Pain Relief",
-      "description": "Centrally acting analgesic with weak mu-opioid agonism and norepinephrine/serotonin reuptake inhibition for moderate to severe pain"
+      "description": "Centrally acting analgesic with weak mu-opioid agonism and norepinephrine/serotonin reuptake inhibition for moderate to severe pain",
+      "adultDosage": "50–100 mg every 4–6 h PO PRN (max 400 mg/day; 300 mg/day if >75 yr)",
+      "pediatricDosage": "Not recommended under 12 yr; cautious adult dosing in 12–17 yr"
     },
     {
       "name": "Celecoxib",
       "genericName": "celecoxib",
       "category": "Pain Relief",
-      "description": "Selective COX-2 inhibitor NSAID with reduced GI ulceration risk compared to non-selective NSAIDs"
+      "description": "Selective COX-2 inhibitor NSAID with reduced GI ulceration risk compared to non-selective NSAIDs",
+      "adultDosage": "100–200 mg twice daily PO (OA/RA); 400 mg then 200 mg on day 1 for acute pain",
+      "pediatricDosage": "50 mg twice daily (10–25 kg) or 100 mg twice daily (>25 kg) for JIA (≥2 yr)"
     },
     {
       "name": "Tiotropium",
       "genericName": "tiotropium bromide",
       "category": "Respiratory",
-      "description": "Once-daily long-acting anticholinergic bronchodilator for COPD maintenance; blocks M3 muscarinic receptors"
+      "description": "Once-daily long-acting anticholinergic bronchodilator for COPD maintenance; blocks M3 muscarinic receptors",
+      "adultDosage": "18 mcg inhaled once daily (HandiHaler DPI) or 5 mcg once daily (Respimat SMI)",
+      "pediatricDosage": "Not approved under 18 yr"
     },
     {
       "name": "Salmeterol",
       "genericName": "salmeterol xinafoate",
       "category": "Respiratory",
-      "description": "Long-acting beta2-adrenergic agonist providing 12-hour bronchodilation; used with inhaled corticosteroids for asthma maintenance"
+      "description": "Long-acting beta2-adrenergic agonist providing 12-hour bronchodilation; used with inhaled corticosteroids for asthma maintenance",
+      "adultDosage": "50 mcg inhaled twice daily (Diskus)",
+      "pediatricDosage": "50 mcg inhaled twice daily (≥4 yr)"
     },
     {
       "name": "Hydroxychloroquine",
       "genericName": "hydroxychloroquine sulfate",
       "category": "Rheumatologic",
-      "description": "DMARD derived from chloroquine used for rheumatoid arthritis and systemic lupus erythematosus; requires retinal monitoring"
+      "description": "DMARD derived from chloroquine used for rheumatoid arthritis and systemic lupus erythematosus; requires retinal monitoring",
+      "adultDosage": "200–400 mg once daily PO (max 5 mg/kg/day to reduce retinal toxicity)",
+      "pediatricDosage": "≤6.5 mg/kg/day PO (SLE/JIA); weight-based dosing"
     },
     {
       "name": "Adalimumab",
       "genericName": "adalimumab",
       "category": "Immunosuppressant",
-      "description": "Fully human anti-TNF-alpha monoclonal antibody for rheumatoid arthritis, psoriasis, psoriatic arthritis, and Crohn's disease"
+      "description": "Fully human anti-TNF-alpha monoclonal antibody for rheumatoid arthritis, psoriasis, psoriatic arthritis, and Crohn's disease",
+      "adultDosage": "40 mg SC every other week; some indications allow 40 mg weekly",
+      "pediatricDosage": "10–40 mg SC every other week (≥2 yr for JIA; weight-based)"
     },
     {
       "name": "Colchicine",
       "genericName": "colchicine",
       "category": "Rheumatologic",
-      "description": "Anti-inflammatory agent that inhibits tubulin polymerization and neutrophil migration; used for acute gout flares and prophylaxis"
+      "description": "Anti-inflammatory agent that inhibits tubulin polymerization and neutrophil migration; used for acute gout flares and prophylaxis",
+      "adultDosage": "1.2 mg at onset then 0.6 mg 1 h later (acute gout); 0.6 mg once or twice daily (prophylaxis)",
+      "pediatricDosage": "FMF: 0.3 mg/day (<5 yr); 0.6 mg/day (5–10 yr); 1.2–1.8 mg/day (>10 yr)"
     },
     {
       "name": "Valproate",
       "genericName": "valproic acid / divalproex sodium",
       "category": "Neurologic",
-      "description": "Broad-spectrum anticonvulsant and mood stabilizer that increases GABA and modulates sodium channels; requires liver function monitoring"
+      "description": "Broad-spectrum anticonvulsant and mood stabilizer that increases GABA and modulates sodium channels; requires liver function monitoring",
+      "adultDosage": "250 mg 3 times daily PO (target level 50–100 mcg/mL); max 60 mg/kg/day",
+      "pediatricDosage": "15 mg/kg/day PO; titrate weekly (≥2 yr; avoid <2 yr due to hepatotoxicity risk)"
     },
     {
       "name": "Topiramate",
       "genericName": "topiramate",
       "category": "Neurologic",
-      "description": "Anticonvulsant blocking sodium channels and potentiating GABA; used for seizures and migraine prophylaxis; associated with cognitive side effects"
+      "description": "Anticonvulsant blocking sodium channels and potentiating GABA; used for seizures and migraine prophylaxis; associated with cognitive side effects",
+      "adultDosage": "Epilepsy: 200–400 mg/day in 2 divided doses; migraine: 100 mg/day in divided doses",
+      "pediatricDosage": "1–3 mg/kg/day PO in 2 divided doses (≥2 yr; titrate slowly)"
     },
     {
       "name": "Donepezil",
       "genericName": "donepezil hydrochloride",
       "category": "Neurologic",
-      "description": "Selective reversible acetylcholinesterase inhibitor for symptomatic treatment of mild to severe Alzheimer's disease"
+      "description": "Selective reversible acetylcholinesterase inhibitor for symptomatic treatment of mild to severe Alzheimer's disease",
+      "adultDosage": "5 mg once daily at bedtime; increase to 10 mg after 4–6 weeks; 23 mg for severe AD",
+      "pediatricDosage": "Not approved for pediatric use"
     },
     {
       "name": "Valacyclovir",
       "genericName": "valacyclovir hydrochloride",
       "category": "Antiviral",
-      "description": "Prodrug of acyclovir with improved oral bioavailability; used for herpes zoster, genital herpes, and herpes labialis"
+      "description": "Prodrug of acyclovir with improved oral bioavailability; used for herpes zoster, genital herpes, and herpes labialis",
+      "adultDosage": "Herpes zoster: 1000 mg 3 times daily × 7 days; genital herpes: 500–1000 mg twice daily",
+      "pediatricDosage": "Chickenpox (2–18 yr): 20 mg/kg 3 times daily × 5 days (max 1 g/dose); herpes labialis ≥12 yr: adult dosing"
     },
     {
       "name": "Ceftriaxone",
       "genericName": "ceftriaxone sodium",
       "category": "Antibiotic",
-      "description": "Third-generation cephalosporin with parenteral administration and excellent CNS penetration; used for pneumonia, meningitis, and sepsis"
+      "description": "Third-generation cephalosporin with parenteral administration and excellent CNS penetration; used for pneumonia, meningitis, and sepsis",
+      "adultDosage": "1–2 g IV/IM once daily; up to 4 g/day for meningitis",
+      "pediatricDosage": "50–100 mg/kg/day IV/IM once daily (max 4 g/day; 100 mg/kg/day for meningitis)"
     },
     {
       "name": "Trimethoprim-Sulfamethoxazole",
       "genericName": "trimethoprim / sulfamethoxazole",
       "category": "Antibiotic",
-      "description": "Fixed-ratio combination that sequentially blocks bacterial folate synthesis; used for UTIs, PCP prophylaxis, and MRSA skin infections"
+      "description": "Fixed-ratio combination that sequentially blocks bacterial folate synthesis; used for UTIs, PCP prophylaxis, and MRSA skin infections",
+      "adultDosage": "1–2 DS tablets (160/800 mg) twice daily PO; IV dosing by weight",
+      "pediatricDosage": "8 mg/kg/day TMP (40 mg/kg/day SMX) PO in 2 divided doses (≥2 months)"
     },
     {
       "name": "Lamotrigine",
       "genericName": "lamotrigine",
       "category": "Neurologic",
-      "description": "Sodium channel and voltage-gated calcium channel stabilizer approved for epilepsy and bipolar disorder maintenance; titrated slowly to minimize Stevens-Johnson syndrome risk"
+      "description": "Sodium channel and voltage-gated calcium channel stabilizer approved for epilepsy and bipolar disorder maintenance; titrated slowly to minimize Stevens-Johnson syndrome risk",
+      "adultDosage": "25–200 mg twice daily PO (varies widely by comedication; valproate halves dosing)",
+      "pediatricDosage": "0.3–1 mg/kg/day (≥2 yr); titrate very slowly over 4–8 weeks to reduce SJS risk"
     },
     {
       "name": "Duloxetine",
       "genericName": "duloxetine hydrochloride",
       "category": "Psychiatric",
-      "description": "Serotonin-norepinephrine reuptake inhibitor approved for major depressive disorder, generalized anxiety disorder, diabetic peripheral neuropathy, fibromyalgia, and chronic musculoskeletal pain"
+      "description": "Serotonin-norepinephrine reuptake inhibitor approved for major depressive disorder, generalized anxiety disorder, diabetic peripheral neuropathy, fibromyalgia, and chronic musculoskeletal pain",
+      "adultDosage": "30–60 mg once daily PO; max 120 mg/day for diabetic neuropathy",
+      "pediatricDosage": "Not approved under 18 yr"
     },
     {
       "name": "Aripiprazole",
       "genericName": "aripiprazole",
       "category": "Psychiatric",
-      "description": "Partial dopamine D2 and serotonin 5-HT1A agonist with 5-HT2A antagonism; favorable metabolic profile compared to other antipsychotics; approved for schizophrenia, bipolar disorder, and adjunctive depression"
+      "description": "Partial dopamine D2 and serotonin 5-HT1A agonist with 5-HT2A antagonism; favorable metabolic profile compared to other antipsychotics; approved for schizophrenia, bipolar disorder, and adjunctive depression",
+      "adultDosage": "10–30 mg once daily PO (schizophrenia/bipolar); 2–15 mg/day adjunct for depression",
+      "pediatricDosage": "2–15 mg once daily PO (6–17 yr for autism irritability; 13+ for schizophrenia; 10+ for bipolar)"
     },
     {
       "name": "Lithium",
       "genericName": "lithium carbonate",
       "category": "Psychiatric",
-      "description": "Monovalent cation mood stabilizer with strong evidence for bipolar disorder and suicide risk reduction; narrow therapeutic index requires regular serum level monitoring"
+      "description": "Monovalent cation mood stabilizer with strong evidence for bipolar disorder and suicide risk reduction; narrow therapeutic index requires regular serum level monitoring",
+      "adultDosage": "300–900 mg 2–3 times daily PO; maintain serum level 0.6–1.2 mEq/L",
+      "pediatricDosage": "300 mg 3 times daily PO (≥12 yr); titrate to serum level 0.6–1.2 mEq/L"
     },
     {
       "name": "Methylphenidate",
       "genericName": "methylphenidate hydrochloride",
       "category": "Psychiatric",
-      "description": "Central nervous system stimulant blocking dopamine and norepinephrine reuptake; first-line treatment for ADHD with immediate and extended-release formulations"
+      "description": "Central nervous system stimulant blocking dopamine and norepinephrine reuptake; first-line treatment for ADHD with immediate and extended-release formulations",
+      "adultDosage": "5–20 mg 2–3 times daily PO (IR) or 18–72 mg once daily (ER formulations)",
+      "pediatricDosage": "5 mg twice daily PO initially (≥6 yr); titrate weekly; max 54–60 mg/day (ER)"
     },
     {
       "name": "Zolpidem",
       "genericName": "zolpidem tartrate",
       "category": "Psychiatric",
-      "description": "Non-benzodiazepine GABA-A receptor modulator selective for omega-1 subunit; reduces sleep onset latency with lower dependence risk than benzodiazepines; approved for short-term insomnia"
+      "description": "Non-benzodiazepine GABA-A receptor modulator selective for omega-1 subunit; reduces sleep onset latency with lower dependence risk than benzodiazepines; approved for short-term insomnia",
+      "adultDosage": "5–10 mg PO at bedtime (women: 5 mg; men: 5–10 mg); max 10 mg/day",
+      "pediatricDosage": "Not approved under 18 yr"
     },
     {
       "name": "Furosemide",
       "genericName": "furosemide",
       "category": "Cardiovascular",
-      "description": "Loop diuretic inhibiting Na-K-2Cl cotransporter in the thick ascending limb; rapid onset diuresis for heart failure decompensation, edema, and hypertension"
+      "description": "Loop diuretic inhibiting Na-K-2Cl cotransporter in the thick ascending limb; rapid onset diuresis for heart failure decompensation, edema, and hypertension",
+      "adultDosage": "20–80 mg PO/IV once or twice daily; may double dose if no response (max 600 mg/day)",
+      "pediatricDosage": "1–2 mg/kg/dose PO/IV (max 6 mg/kg/dose or 200 mg/dose)"
     },
     {
       "name": "Spironolactone",
       "genericName": "spironolactone",
       "category": "Cardiovascular",
-      "description": "Mineralocorticoid receptor antagonist and potassium-sparing diuretic; reduces mortality in systolic heart failure (RALES trial) and used for resistant hypertension and hyperaldosteronism"
+      "description": "Mineralocorticoid receptor antagonist and potassium-sparing diuretic; reduces mortality in systolic heart failure (RALES trial) and used for resistant hypertension and hyperaldosteronism",
+      "adultDosage": "25–50 mg once daily for heart failure; 100–200 mg/day for primary aldosteronism",
+      "pediatricDosage": "1–3.3 mg/kg/day PO in 1–2 divided doses"
     },
     {
       "name": "Digoxin",
       "genericName": "digoxin",
       "category": "Cardiovascular",
-      "description": "Cardiac glycoside inhibiting Na-K ATPase; positive inotropy and vagally mediated AV node slowing; used for heart failure with reduced ejection fraction and rate control in atrial fibrillation"
+      "description": "Cardiac glycoside inhibiting Na-K ATPase; positive inotropy and vagally mediated AV node slowing; used for heart failure with reduced ejection fraction and rate control in atrial fibrillation",
+      "adultDosage": "0.125–0.25 mg once daily PO; target serum level 0.5–0.9 ng/mL",
+      "pediatricDosage": "Complex weight and age-based loading/maintenance dosing; consult detailed references"
     },
     {
       "name": "Rosuvastatin",
       "genericName": "rosuvastatin calcium",
       "category": "Cardiovascular",
-      "description": "High-intensity HMG-CoA reductase inhibitor with greatest LDL-lowering potency among statins; approved from age 8 for familial hypercholesterolemia; once-daily dosing"
+      "description": "High-intensity HMG-CoA reductase inhibitor with greatest LDL-lowering potency among statins; approved from age 8 for familial hypercholesterolemia; once-daily dosing",
+      "adultDosage": "10–40 mg once daily PO (high-intensity: 20–40 mg; max 40 mg)",
+      "pediatricDosage": "5–20 mg once daily PO (≥8 yr for heterozygous familial hypercholesterolemia)"
     },
     {
       "name": "Ramipril",
       "genericName": "ramipril",
       "category": "Cardiovascular",
-      "description": "ACE inhibitor with proven mortality benefit in post-MI left ventricular dysfunction (AIRE trial) and high-risk cardiovascular patients (HOPE trial); also used for hypertension and diabetic nephropathy"
+      "description": "ACE inhibitor with proven mortality benefit in post-MI left ventricular dysfunction (AIRE trial) and high-risk cardiovascular patients (HOPE trial); also used for hypertension and diabetic nephropathy",
+      "adultDosage": "2.5–10 mg once daily PO; start 1.25–2.5 mg if heart failure",
+      "pediatricDosage": "Limited data; approximately 6 mg/m²/day in divided doses"
     },
     {
       "name": "Tamsulosin",
       "genericName": "tamsulosin hydrochloride",
       "category": "Genitourinary",
-      "description": "Highly selective alpha-1A and alpha-1D adrenoceptor blocker that relaxes prostate and bladder neck smooth muscle to improve urinary flow in benign prostatic hyperplasia"
+      "description": "Highly selective alpha-1A and alpha-1D adrenoceptor blocker that relaxes prostate and bladder neck smooth muscle to improve urinary flow in benign prostatic hyperplasia",
+      "adultDosage": "0.4 mg once daily PO 30 min after same meal; may increase to 0.8 mg if needed",
+      "pediatricDosage": "Not indicated (BPH is an adult male condition)"
     },
     {
       "name": "Tadalafil",
       "genericName": "tadalafil",
       "category": "Genitourinary",
-      "description": "Long-acting PDE5 inhibitor with 36-hour duration for erectile dysfunction; also approved as once-daily low-dose therapy for benign prostatic hyperplasia and pulmonary arterial hypertension"
+      "description": "Long-acting PDE5 inhibitor with 36-hour duration for erectile dysfunction; also approved as once-daily low-dose therapy for benign prostatic hyperplasia and pulmonary arterial hypertension",
+      "adultDosage": "ED as needed: 5–20 mg PO before activity; BPH: 5 mg once daily",
+      "pediatricDosage": "Not indicated for ED; PAH in children: 1 mg/kg/day (limited data)"
     },
     {
       "name": "Isotretinoin",
       "genericName": "isotretinoin",
       "category": "Dermatologic",
-      "description": "Oral retinoid that dramatically reduces sebaceous gland size and sebum production, normalizes follicular keratinization, and has anti-inflammatory properties; highly effective for severe nodulocystic acne with teratogenic risk requiring iPLEDGE monitoring"
+      "description": "Oral retinoid that dramatically reduces sebaceous gland size and sebum production, normalizes follicular keratinization, and has anti-inflammatory properties; highly effective for severe nodulocystic acne with teratogenic risk requiring iPLEDGE monitoring",
+      "adultDosage": "0.5–1 mg/kg/day PO in 2 divided doses for 15–20 weeks (cumulative dose 120–150 mg/kg)",
+      "pediatricDosage": "≥12 yr: same as adult weight-based dosing under iPLEDGE monitoring"
     },
     {
       "name": "Tacrolimus",
       "genericName": "tacrolimus",
       "category": "Immunosuppressant",
-      "description": "Calcineurin inhibitor blocking T-cell activation via FKBP12 binding; available as systemic formulation for transplant rejection and topical formulation for atopic dermatitis and psoriasis in steroid-refractory cases"
+      "description": "Calcineurin inhibitor blocking T-cell activation via FKBP12 binding; available as systemic formulation for transplant rejection and topical formulation for atopic dermatitis and psoriasis in steroid-refractory cases",
+      "adultDosage": "Transplant: 0.1–0.3 mg/kg/day PO in 2 doses (target trough varies by organ); topical 0.1% twice daily",
+      "pediatricDosage": "Pediatric transplant: 0.15–0.3 mg/kg/day PO; topical 0.03% for atopic dermatitis (≥2 yr)"
     },
     {
       "name": "Mesalamine",
       "genericName": "mesalamine",
       "category": "Gastrointestinal",
-      "description": "5-aminosalicylic acid derivative with topical anti-inflammatory action on colonic mucosa; first-line therapy for induction and maintenance of remission in mild-to-moderate ulcerative colitis"
+      "description": "5-aminosalicylic acid derivative with topical anti-inflammatory action on colonic mucosa; first-line therapy for induction and maintenance of remission in mild-to-moderate ulcerative colitis",
+      "adultDosage": "800 mg 3 times daily PO (delayed-release) or 1.2–4.8 g once daily (extended-release)",
+      "pediatricDosage": "30–50 mg/kg/day PO in divided doses (≥5 yr for UC)"
     },
     {
       "name": "Budesonide",
       "genericName": "budesonide",
       "category": "Respiratory",
-      "description": "Potent synthetic corticosteroid with high topical anti-inflammatory activity and extensive first-pass hepatic metabolism limiting systemic exposure; used as inhaled formulation for asthma and oral formulation for inflammatory bowel disease"
+      "description": "Potent synthetic corticosteroid with high topical anti-inflammatory activity and extensive first-pass hepatic metabolism limiting systemic exposure; used as inhaled formulation for asthma and oral formulation for inflammatory bowel disease",
+      "adultDosage": "Inhaled: 180–720 mcg twice daily; oral IBD: 9 mg once daily for 8 weeks",
+      "pediatricDosage": "Inhaled: 0.25–0.5 mg twice daily via nebulizer (1–8 yr); 180–360 mcg MDI (≥6 yr)"
     },
     {
       "name": "Metronidazole",
       "genericName": "metronidazole",
       "category": "Antibiotic",
-      "description": "Nitroimidazole antibiotic and antiprotozoal agent with excellent anaerobic and microaerophilic coverage; essential component of H. pylori eradication and Clostridioides difficile treatment"
+      "description": "Nitroimidazole antibiotic and antiprotozoal agent with excellent anaerobic and microaerophilic coverage; essential component of H. pylori eradication and Clostridioides difficile treatment",
+      "adultDosage": "500 mg 3 times daily PO × 7–10 days (C. diff: 500 mg 3 times daily × 10 days)",
+      "pediatricDosage": "15–35 mg/kg/day PO in 3 divided doses (≥3 months)"
     },
     {
       "name": "Clindamycin",
       "genericName": "clindamycin phosphate",
       "category": "Antibiotic",
-      "description": "Lincosamide antibiotic inhibiting 50S ribosomal subunit with excellent gram-positive and anaerobic coverage; used for skin and soft tissue infections including community-acquired MRSA"
+      "description": "Lincosamide antibiotic inhibiting 50S ribosomal subunit with excellent gram-positive and anaerobic coverage; used for skin and soft tissue infections including community-acquired MRSA",
+      "adultDosage": "150–450 mg every 6 h PO; 600–900 mg every 8 h IV",
+      "pediatricDosage": "8–20 mg/kg/day PO in 3–4 doses; 20–40 mg/kg/day IV in 3–4 doses"
     },
     {
       "name": "Levofloxacin",
       "genericName": "levofloxacin",
       "category": "Antibiotic",
-      "description": "Respiratory fluoroquinolone with broad-spectrum bactericidal activity against gram-positive and gram-negative organisms including atypicals; used for pneumonia, UTIs, sinusitis, and skin infections"
+      "description": "Respiratory fluoroquinolone with broad-spectrum bactericidal activity against gram-positive and gram-negative organisms including atypicals; used for pneumonia, UTIs, sinusitis, and skin infections",
+      "adultDosage": "250–750 mg once daily PO/IV (dose and duration by indication)",
+      "pediatricDosage": "Not routinely recommended; 8–10 mg/kg every 24 h for specific indications (≥6 months)"
     },
     {
       "name": "Mirtazapine",
       "genericName": "mirtazapine",
       "category": "Psychiatric",
-      "description": "Noradrenergic and specific serotonergic antidepressant blocking alpha-2 autoreceptors and heteroreceptors; potent H1 antihistamine activity promotes sleep; useful for depression with insomnia and poor appetite"
+      "description": "Noradrenergic and specific serotonergic antidepressant blocking alpha-2 autoreceptors and heteroreceptors; potent H1 antihistamine activity promotes sleep; useful for depression with insomnia and poor appetite",
+      "adultDosage": "15 mg at bedtime; titrate to 15–45 mg once daily (higher doses are less sedating)",
+      "pediatricDosage": "Not approved under 18 yr"
     },
     {
       "name": "Risperidone",
       "genericName": "risperidone",
       "category": "Psychiatric",
-      "description": "Second-generation antipsychotic with potent dopamine D2 and serotonin 5-HT2A antagonism; effective for schizophrenia positive and negative symptoms and bipolar mania"
+      "description": "Second-generation antipsychotic with potent dopamine D2 and serotonin 5-HT2A antagonism; effective for schizophrenia positive and negative symptoms and bipolar mania",
+      "adultDosage": "1–8 mg/day PO in 1–2 divided doses (start 0.5–1 mg and titrate)",
+      "pediatricDosage": "0.25–3 mg/day PO (≥5 yr for autism irritability; ≥13 yr for schizophrenia)"
     },
     {
       "name": "Amphetamine Salts",
       "genericName": "mixed amphetamine salts",
       "category": "Psychiatric",
-      "description": "Mixed salts of amphetamine enantiomers that release dopamine and norepinephrine from presynaptic terminals; highly effective for ADHD inattention, hyperactivity, and impulsivity across age groups"
+      "description": "Mixed salts of amphetamine enantiomers that release dopamine and norepinephrine from presynaptic terminals; highly effective for ADHD inattention, hyperactivity, and impulsivity across age groups",
+      "adultDosage": "5–30 mg once daily PO (XR); 5–60 mg/day in divided doses (IR)",
+      "pediatricDosage": "5–10 mg once daily PO initially (≥6 yr for XR); 2.5–5 mg/day for 3–5 yr (off-label)"
     },
     {
       "name": "Carbamazepine",
       "genericName": "carbamazepine",
       "category": "Neurologic",
-      "description": "Sodium channel blocker anticonvulsant and mood stabilizer; first-line for focal seizures and trigeminal neuralgia; used in bipolar disorder; requires monitoring for agranulocytosis and hyponatremia"
+      "description": "Sodium channel blocker anticonvulsant and mood stabilizer; first-line for focal seizures and trigeminal neuralgia; used in bipolar disorder; requires monitoring for agranulocytosis and hyponatremia",
+      "adultDosage": "200 mg twice daily initially; titrate to 800–1200 mg/day in divided doses (max 1600 mg/day)",
+      "pediatricDosage": "<6 yr: 10–20 mg/kg/day in 3–4 doses; 6–12 yr: 100 mg twice daily; titrate to 20–30 mg/kg/day"
     },
     {
       "name": "Tretinoin",
       "genericName": "tretinoin",
       "category": "Dermatologic",
-      "description": "All-trans retinoic acid that normalizes follicular epithelial turnover, reduces comedone formation, and has anti-inflammatory properties; topical treatment for acne vulgaris and photodamaged skin"
+      "description": "All-trans retinoic acid that normalizes follicular epithelial turnover, reduces comedone formation, and has anti-inflammatory properties; topical treatment for acne vulgaris and photodamaged skin",
+      "adultDosage": "Thin film applied once daily at bedtime; begin with 0.025% and increase as tolerated",
+      "pediatricDosage": "Not recommended under 12 yr; ≥12 yr same as adult topical application"
     },
     {
       "name": "Bisoprolol",
       "genericName": "bisoprolol fumarate",
       "category": "Cardiovascular",
-      "description": "Highly cardioselective beta-1 adrenergic blocker with proven mortality reduction in systolic heart failure (CIBIS-II trial); once-daily dosing for heart failure and hypertension"
+      "description": "Highly cardioselective beta-1 adrenergic blocker with proven mortality reduction in systolic heart failure (CIBIS-II trial); once-daily dosing for heart failure and hypertension",
+      "adultDosage": "1.25–10 mg once daily PO (heart failure: start 1.25 mg and titrate over months)",
+      "pediatricDosage": "0.02–0.5 mg/kg once daily PO (limited pediatric data; off-label in cardiomyopathy)"
     },
     {
       "name": "Beclomethasone",
       "genericName": "beclomethasone dipropionate",
       "category": "Respiratory",
-      "description": "Inhaled corticosteroid with potent local anti-inflammatory activity in the airways; available as metered-dose and dry powder inhalers for persistent asthma and COPD with frequent exacerbations"
+      "description": "Inhaled corticosteroid with potent local anti-inflammatory activity in the airways; available as metered-dose and dry powder inhalers for persistent asthma and COPD with frequent exacerbations",
+      "adultDosage": "80–320 mcg inhaled twice daily (MDI); titrate to lowest effective dose",
+      "pediatricDosage": "40–80 mcg inhaled twice daily (≥5 yr); max 160 mcg twice daily in children"
     }
   ],
   "conditions": [

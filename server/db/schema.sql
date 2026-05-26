@@ -4,6 +4,8 @@ CREATE TABLE IF NOT EXISTS medications (
   genericName TEXT,
   category TEXT NOT NULL,
   description TEXT,
+  adultDosage TEXT,
+  pediatricDosage TEXT,
   createdAt DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 

@@ -35,14 +35,18 @@ const initDB = () => {
       db.exec(schema, async (err) => {
         if (err) return reject(err);
 
-        db.all('SELECT COUNT(*) as count FROM medications', async (err, rows) => {
-          if (err) return reject(err);
+        db.run('ALTER TABLE medications ADD COLUMN adultDosage TEXT', (_err) => {
+          db.run('ALTER TABLE medications ADD COLUMN pediatricDosage TEXT', (_err) => {
+            db.all('SELECT COUNT(*) as count FROM medications', async (err, rows) => {
+              if (err) return reject(err);
 
-          if (rows[0].count === 0) {
-            const seeds = JSON.parse(fs.readFileSync(path.join(__dirname, 'db', 'seeds.json'), 'utf8'));
-            await seedDB(seeds);
-          }
-          resolve();
+              if (rows[0].count === 0) {
+                const seeds = JSON.parse(fs.readFileSync(path.join(__dirname, 'db', 'seeds.json'), 'utf8'));
+                await seedDB(seeds);
+              }
+              resolve();
+            });
+          });
         });
       });
     });
@@ -55,8 +59,8 @@ const seedDB = (seeds) => {
       db.run('BEGIN TRANSACTION');
 
       for (const med of seeds.medications) {
-        db.run('INSERT OR IGNORE INTO medications (name, genericName, category, description) VALUES (?, ?, ?, ?)',
-          [med.name, med.genericName, med.category, med.description]);
+        db.run('INSERT OR IGNORE INTO medications (name, genericName, category, description, adultDosage, pediatricDosage) VALUES (?, ?, ?, ?, ?, ?)',
+          [med.name, med.genericName, med.category, med.description, med.adultDosage ?? null, med.pediatricDosage ?? null]);
       }
       for (const cond of seeds.conditions) {
         db.run('INSERT OR IGNORE INTO conditions (name, category, description, symptoms) VALUES (?, ?, ?, ?)',
